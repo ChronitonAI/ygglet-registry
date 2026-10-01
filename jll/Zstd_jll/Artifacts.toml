@@ -1,0 +1,10 @@
+[[Zstd]]
+arch = "x86_64"
+git-tree-sha1 = "a4f47f6a15c0aef87112e2a0080ad8c3faa5b9a5"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[Zstd.download]]
+    sha256 = "641de709fb63eabe8f8dd43f53642bea03c068cc59184e96734832c2dd6e7d32"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/Zstd-a4f47f6a15c0aef87112e2a0080ad8c3faa5b9a5.tar.gz"

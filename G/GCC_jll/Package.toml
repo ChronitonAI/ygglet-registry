@@ -1,0 +1,4 @@
+name = "GCC_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/GCC_jll"
+uuid = "ec15993a-68c6-5861-8652-ef539d7ffb0b"

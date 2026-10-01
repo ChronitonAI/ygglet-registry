@@ -1,0 +1,4 @@
+name = "Zlib_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Zlib_jll"
+uuid = "83775a58-1f1d-513f-b197-d71354ab007a"

@@ -1,0 +1,10 @@
+[[SQLite]]
+arch = "x86_64"
+git-tree-sha1 = "24a5314a90f7b09572b1e0f8ca19c60e6f4927f6"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[SQLite.download]]
+    sha256 = "5272041404ea0d4a81f281974a40fa520987e1a1b145c18f8a10aabec889d7fc"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/SQLite-24a5314a90f7b09572b1e0f8ca19c60e6f4927f6.tar.gz"

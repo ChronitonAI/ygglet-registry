@@ -1,0 +1,4 @@
+name = "Bzip2_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Bzip2_jll"
+uuid = "6e34b625-4abd-537c-b88f-471c36dfa7a0"

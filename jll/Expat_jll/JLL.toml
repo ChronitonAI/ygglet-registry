@@ -1,0 +1,49 @@
+version = "2.8.5"
+format_version = "1.0"
+name = "Expat"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "Expat"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+deps = []
+lazy = "false"
+src_version = "2.8.4"
+
+    [builds.artifact]
+    treehash = "sha1:4f7b3bd1ec88928ce1009896c9f0ec9bf11ff469"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "COPYING"
+    license_type = "MIT"
+    license_text = """Copyright (c) 1998-2000 Thai Open Source Software Center Ltd and Clark Cooper\nCopyright (c) 2001-2025 Expat maintainers\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlwf"
+    type = "executable"
+    name = "xmlwf"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libexpat.so.1.12.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libexpat"
+    soname = "libexpat.so.1"
+    system_deps = ["c", "m"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:a8bcca64e0dc3eb141cabfa1c169c8fe526207ec"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:b267430d288193033c6007e63b48cf3a681a46ad"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:8b42955b09eb0c04a2b1b0b1d087221fe3986302"
+    url = "https://github.com/libexpat/libexpat/releases/download/R_2_8_4/expat-2.8.4.tar.xz"
+
+    [builds.callback_defs]

@@ -1,0 +1,4 @@
+name = "CompilerSupportLibraries_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/CompilerSupportLibraries_jll"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"

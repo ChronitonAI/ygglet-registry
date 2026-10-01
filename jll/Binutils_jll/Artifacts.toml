@@ -1,0 +1,10 @@
+[[Binutils]]
+arch = "x86_64"
+git-tree-sha1 = "5dbfa18aa0f90fef64c5cc9ae6adfd66d3278aa6"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[Binutils.download]]
+    sha256 = "5b1311d44630633ec759f66a6ac3d141f09d3640a65cec8b5126cfd7f869e84a"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/Binutils-5dbfa18aa0f90fef64c5cc9ae6adfd66d3278aa6.tar.gz"

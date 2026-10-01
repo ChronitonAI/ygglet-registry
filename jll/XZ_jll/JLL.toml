@@ -1,0 +1,64 @@
+version = "5.8.5"
+format_version = "1.0"
+name = "XZ"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "XZ"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+deps = []
+lazy = "false"
+src_version = "5.8.4"
+
+    [builds.artifact]
+    treehash = "sha1:6c31d98e6e5648788a58fc3f562b96f3dc15fb7c"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "COPYING"
+    license_text = """\nXZ Utils Licensing\n==================\n\n    Different licenses apply to different files in this package. Here\n    is a summary of which licenses apply to which parts of this package:\n\n      - liblzma is under the BSD Zero Clause License (0BSD).\n\n      - The command line tools xz, xzdec, lzmadec, and lzmainfo are\n        under 0BSD except that, on systems that don't have a usable\n        getopt_long, GNU getopt_long is compiled and linked in from the\n        'lib' directory. The getopt_long code is under GNU LGPLv2.1+.\n\n      - The scripts to grep, diff, and view compressed files have been\n        adapted from GNU gzip. These scripts (xzgrep, xzdiff, xzless,\n        and xzmore) are under GNU GPLv2+. The man pages of the scripts\n        are under 0BSD; they aren't based on the man pages of GNU gzip.\n\n      - Most of the XZ Utils specific documentation that is in\n        plain text files (like README, INSTALL, PACKAGERS, NEWS,\n        and ChangeLog) are under 0BSD unless stated otherwise in\n        the file itself. The files xz-file-format.txt and\n        lzma-file-format.xt are in the public domain but may\n        be distributed under the terms of 0BSD too.\n\n      - Translated messages and man pages are under 0BSD except that\n        some old translations are in the public domain.\n\n      - Test files and test code in the 'tests' directory, and\n        debugging utilities in the 'debug' directory are under\n        the BSD Zero Clause License (0BSD).\n\n      - The GNU Autotools based build system contains files that are\n        under GNU GPLv2+, GNU GPLv3+, and a few permissive licenses.\n        These files don't affect the licensing of the binaries being\n        built.\n\n      - The 'extra' directory contains files that are under various\n        free software licenses. These aren't built or installed as\n        part of XZ Utils.\n\n    The following command may be helpful in finding per-file license\n    information. It works on xz.git and on a clean file tree extracted\n    from a release tarball.\n\n        sh build-aux/license-check.sh -v\n\n    For the files under the BSD Zero Clause License (0BSD), if\n    a copyright notice is needed, the following is sufficient:\n\n        Copyright (C) The XZ Utils authors and contributors\n\n    If you copy significant amounts of 0BSD-licensed code from XZ Utils\n    into your project, acknowledging this somewhere in your software is\n    polite (especially if it is proprietary, non-free software), but\n    it is not legally required by the license terms. Here is an example\n    of a good notice to put into \"about box\" or into documentation:\n\n        This software includes code from XZ Utils <https://tukaani.org/xz/>.\n\n    The following license texts are included in the following files:\n      - COPYING.0BSD: BSD Zero Clause License\n      - COPYING.LGPLv2.1: GNU Lesser General Public License version 2.1\n      - COPYING.GPLv2: GNU General Public License version 2\n      - COPYING.GPLv3: GNU General Public License version 3\n\n    If you have questions, don't hesitate to ask for more information.\n    The contact information is in the README file.\n\n"""
+
+    [[builds.products]]
+    path = "bin/xzdec"
+    type = "executable"
+    name = "xzdec"
+    [[builds.products]]
+    path = "bin/lzmainfo"
+    type = "executable"
+    name = "lzmainfo"
+    [[builds.products]]
+    path = "bin/xz"
+    type = "executable"
+    name = "xz"
+    [[builds.products]]
+    path = "bin/lzmadec"
+    type = "executable"
+    name = "lzmadec"
+    [[builds.products]]
+    path = "lib/liblzma.a"
+    type = "file"
+    name = "liblzma_a"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/liblzma.so.5.8.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "liblzma"
+    soname = "liblzma.so.5"
+    system_deps = ["c", "pthread"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:23c3eccf38079ab017a857f345aac522e04c3d1f"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:65067e33ab29beef6863dd6b4a447e9639188e8e"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:f2492d4d95e52eb2b75b1666caca58b50c44e4b0"
+    url = "https://github.com/tukaani-project/xz/releases/download/v5.8.4/xz-5.8.4.tar.xz"
+
+    [builds.callback_defs]

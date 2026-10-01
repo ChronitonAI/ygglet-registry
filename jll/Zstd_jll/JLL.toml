@@ -1,0 +1,56 @@
+version = "1.5.8"
+format_version = "1.0"
+name = "Zstd"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "Zstd"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+deps = []
+lazy = "false"
+src_version = "1.5.7"
+
+    [builds.artifact]
+    treehash = "sha1:a4f47f6a15c0aef87112e2a0080ad8c3faa5b9a5"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "BSD-3-Clause"
+    license_text = """BSD License\n\nFor Zstandard software\n\nCopyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification,\nare permitted provided that the following conditions are met:\n\n * Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n * Neither the name Facebook, nor Meta, nor the names of its contributors may\n   be used to endorse or promote products derived from this software without\n   specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON\nANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"""
+
+    [[builds.products]]
+    path = "bin/zstd"
+    type = "executable"
+    name = "zstd"
+    [[builds.products]]
+    path = "bin/zstdmt"
+    type = "executable"
+    name = "zstdmt"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libzstd.so.1.5.7"
+    linkage = "dynamic"
+    type = "library"
+    name = "libzstd"
+    soname = "libzstd.so.1"
+    system_deps = ["c", "pthread"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:fb6fa0b05cfdacf6e6948099fd37eb5c9f65c671"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:ce653a7abac5bb7b3bff683a6e70a6e46d0a3db6"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:899808d2919131fe271315535d24d3e8302a7831"
+    url = "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:868b616e6273584ebbb2747a3402f05ed329ac61"
+    url = "/workspace/Yggdrasil/Z/Zstd/bundled"
+
+    [builds.callback_defs]

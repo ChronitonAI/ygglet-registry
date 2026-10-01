@@ -1,0 +1,4 @@
+name = "GCCSoftTicksPlugin_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/GCCSoftTicksPlugin_jll"
+uuid = "6218a57a-bfcc-5647-9929-e3a5dd6f2900"

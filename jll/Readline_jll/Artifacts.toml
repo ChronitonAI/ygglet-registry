@@ -1,0 +1,10 @@
+[[Readline]]
+arch = "x86_64"
+git-tree-sha1 = "d60d14bb3134712a25cec40d32f6410ff33e7c5c"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[Readline.download]]
+    sha256 = "81d05e6cda110b5906d5f78529eb9f3ecf13ed2c1efdfde7d5ebc4b13d7467ed"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/Readline-d60d14bb3134712a25cec40d32f6410ff33e7c5c.tar.gz"

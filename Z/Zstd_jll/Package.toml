@@ -1,0 +1,4 @@
+name = "Zstd_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Zstd_jll"
+uuid = "3161d3a3-bdf6-5164-811a-617609db77b4"

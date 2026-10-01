@@ -1,0 +1,4 @@
+name = "Glibc_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Glibc_jll"
+uuid = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"

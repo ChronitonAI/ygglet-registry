@@ -1,0 +1,45 @@
+version = "1.0.10"
+format_version = "1.0"
+name = "Bzip2"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "Bzip2"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+deps = []
+lazy = "false"
+src_version = "1.0.9"
+
+    [builds.artifact]
+    treehash = "sha1:3f88f7bb30c72bdbfa2dc1f8f000b18129385b50"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "bzip2-1.0.6"
+    license_text = """\n--------------------------------------------------------------------------\n\nThis program, \"bzip2\", the associated library \"libbzip2\", and all\ndocumentation, are copyright (C) 1996-2019 Julian R Seward.  All\nrights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. The origin of this software must not be misrepresented; you must \n   not claim that you wrote the original software.  If you use this \n   software in a product, an acknowledgment in the product \n   documentation would be appreciated but is not required.\n\n3. Altered source versions must be plainly marked as such, and must\n   not be misrepresented as being the original software.\n\n4. The name of the author may not be used to endorse or promote \n   products derived from this software without specific prior written \n   permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\nGOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@acm.org\nbzip2/libbzip2 version 1.0.8 of 13 July 2019\n\n--------------------------------------------------------------------------\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libbz2.so.1.0.9"
+    linkage = "dynamic"
+    type = "library"
+    name = "libbzip2"
+    soname = "libbz2.so.1.0"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:9e1f515da58dc899fa95c768409dc579c14b413d"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:4b74939a843ec18e57540bf595868de7e2915ea1"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    url = "git://sourceware.org/git/bzip2.git"
+
+    [builds.callback_defs]

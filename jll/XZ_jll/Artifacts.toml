@@ -1,0 +1,10 @@
+[[XZ]]
+arch = "x86_64"
+git-tree-sha1 = "6c31d98e6e5648788a58fc3f562b96f3dc15fb7c"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[XZ.download]]
+    sha256 = "aecb50c8d37a5b6cc9661617e82156e3a7198b05c858108a94b9ec10a8f8d915"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/XZ-6c31d98e6e5648788a58fc3f562b96f3dc15fb7c.tar.gz"

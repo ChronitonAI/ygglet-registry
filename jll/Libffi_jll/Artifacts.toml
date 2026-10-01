@@ -1,0 +1,10 @@
+[[Libffi]]
+arch = "x86_64"
+git-tree-sha1 = "b2f158fda8c149a07c1299e3cde451478df11300"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[Libffi.download]]
+    sha256 = "741d8856c0ece071e3e86d06dfcbabd74001eee9e2c7ee84321ff9e0c3d545a0"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/Libffi-b2f158fda8c149a07c1299e3cde451478df11300.tar.gz"

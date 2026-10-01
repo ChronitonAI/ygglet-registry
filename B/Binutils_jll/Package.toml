@@ -1,0 +1,4 @@
+name = "Binutils_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Binutils_jll"
+uuid = "489e263e-5428-50b0-a723-147a141b401e"

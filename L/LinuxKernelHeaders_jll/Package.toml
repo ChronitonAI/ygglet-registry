@@ -1,0 +1,4 @@
+name = "LinuxKernelHeaders_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/LinuxKernelHeaders_jll"
+uuid = "d754bdc3-4c87-55c0-a004-f56830624a1e"

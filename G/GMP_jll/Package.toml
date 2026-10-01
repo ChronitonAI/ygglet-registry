@@ -1,0 +1,4 @@
+name = "GMP_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/GMP_jll"
+uuid = "781609d7-10c4-51f6-84f2-b8444358ff6d"

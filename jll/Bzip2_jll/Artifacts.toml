@@ -1,0 +1,10 @@
+[[Bzip2]]
+arch = "x86_64"
+git-tree-sha1 = "3f88f7bb30c72bdbfa2dc1f8f000b18129385b50"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[Bzip2.download]]
+    sha256 = "99fbad1f1957a87244501018f08ecb4f4ff445ed430a186ed927c6edf0d9a172"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/Bzip2-3f88f7bb30c72bdbfa2dc1f8f000b18129385b50.tar.gz"

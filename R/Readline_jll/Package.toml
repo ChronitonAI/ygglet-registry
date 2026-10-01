@@ -1,0 +1,4 @@
+name = "Readline_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Readline_jll"
+uuid = "05236dd9-4125-5232-aa7c-9ec0c9b2c25a"

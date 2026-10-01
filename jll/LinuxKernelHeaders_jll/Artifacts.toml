@@ -1,0 +1,10 @@
+[[LinuxKernelHeaders]]
+arch = "x86_64"
+git-tree-sha1 = "32e3eea45556df578fdd79016d24a41079d9c495"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "166251e1fb656dfef4efb80758773fb6dae826e4c49f16609866eb88571d7c4a"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/LinuxKernelHeaders-32e3eea45556df578fdd79016d24a41079d9c495.tar.gz"

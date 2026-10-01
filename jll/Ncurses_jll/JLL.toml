@@ -1,0 +1,71 @@
+version = "6.6.1"
+format_version = "1.0"
+name = "Ncurses"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "Ncurses"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+deps = []
+lazy = "false"
+src_version = "6.6.0"
+
+    [builds.artifact]
+    treehash = "sha1:8f0b02a9dfaae118d78c8d4fa68acc03d8cb5e8f"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "COPYING"
+    license_text = """Copyright 2018-2024,2025 Thomas E. Dickey\nCopyright 1998-2017,2018 Free Software Foundation, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, distribute with modifications, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.\n\n-- vile:txtmode fc=72\n-- $Id: COPYING,v 1.14 2025/01/04 10:53:46 tom Exp $\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libformw.so.6.6"
+    linkage = "dynamic"
+    type = "library"
+    name = "libform"
+    soname = "libformw.so.6"
+    system_deps = ["c"]
+    deps = ["libncursesw"]
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libmenuw.so.6.6"
+    linkage = "dynamic"
+    type = "library"
+    name = "libmenu"
+    soname = "libmenuw.so.6"
+    system_deps = ["c"]
+    deps = ["libncursesw"]
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libncursesw.so.6.6"
+    linkage = "dynamic"
+    type = "library"
+    name = "libncursesw"
+    soname = "libncursesw.so.6"
+    system_deps = ["c"]
+    deps = []
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libpanelw.so.6.6"
+    linkage = "dynamic"
+    type = "library"
+    name = "libpanel"
+    soname = "libpanelw.so.6"
+    system_deps = ["c"]
+    deps = ["libncursesw"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:69371dfd99f603017c9b2b8b37e120929fdd117f"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:5b561b5110fc2c26e29199c4b48376a19bdb385c"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:5ada96d8f2052ff9a91a5b31ab0e20e6e82debbf"
+    url = "https://ftp.gnu.org/gnu/ncurses/ncurses-6.6.tar.gz"
+
+    [builds.callback_defs]

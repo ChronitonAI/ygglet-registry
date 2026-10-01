@@ -1,0 +1,4 @@
+name = "Expat_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Expat_jll"
+uuid = "2e619515-83b5-522b-bb60-26c02a35a201"

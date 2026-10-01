@@ -1,0 +1,4 @@
+name = "SQLite_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/SQLite_jll"
+uuid = "76ed43ae-9a5d-5a62-8c75-30186b810ce8"

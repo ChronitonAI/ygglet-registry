@@ -1,0 +1,76 @@
+name = "YggletRegistry"
+uuid = "94fcc909-239d-47d3-a3cc-f0c95f1211be"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+description = "Ygglet Linux: JLLs built by BinaryBuilder2 for the ygglet platforms (see github.com/ChronitonAI/ygglet). Wrapper sources in jll/, tarballs in the repository's releases."
+
+[packages.05236dd9-4125-5232-aa7c-9ec0c9b2c25a]
+name = "Readline_jll"
+path = "R/Readline_jll"
+
+[packages.2e619515-83b5-522b-bb60-26c02a35a201]
+name = "Expat_jll"
+path = "E/Expat_jll"
+
+[packages.3161d3a3-bdf6-5164-811a-617609db77b4]
+name = "Zstd_jll"
+path = "Z/Zstd_jll"
+
+[packages.38a345b3-de98-5d2b-a5d3-14cd9215e700]
+name = "Libuuid_jll"
+path = "L/Libuuid_jll"
+
+[packages.452aa2e7-e185-58db-8ff9-d3c1fa4bc997]
+name = "Glibc_jll"
+path = "G/Glibc_jll"
+
+[packages.458c3c95-2e84-50aa-8efc-19380b2a3a95]
+name = "OpenSSL_jll"
+path = "O/OpenSSL_jll"
+
+[packages.489e263e-5428-50b0-a723-147a141b401e]
+name = "Binutils_jll"
+path = "B/Binutils_jll"
+
+[packages.6218a57a-bfcc-5647-9929-e3a5dd6f2900]
+name = "GCCSoftTicksPlugin_jll"
+path = "G/GCCSoftTicksPlugin_jll"
+
+[packages.68e3532b-a499-55ff-9963-d1c0c0748b3a]
+name = "Ncurses_jll"
+path = "N/Ncurses_jll"
+
+[packages.6e34b625-4abd-537c-b88f-471c36dfa7a0]
+name = "Bzip2_jll"
+path = "B/Bzip2_jll"
+
+[packages.76ed43ae-9a5d-5a62-8c75-30186b810ce8]
+name = "SQLite_jll"
+path = "S/SQLite_jll"
+
+[packages.781609d7-10c4-51f6-84f2-b8444358ff6d]
+name = "GMP_jll"
+path = "G/GMP_jll"
+
+[packages.83775a58-1f1d-513f-b197-d71354ab007a]
+name = "Zlib_jll"
+path = "Z/Zlib_jll"
+
+[packages.d754bdc3-4c87-55c0-a004-f56830624a1e]
+name = "LinuxKernelHeaders_jll"
+path = "L/LinuxKernelHeaders_jll"
+
+[packages.e66e0078-7015-5450-92f7-15fbd957f2ae]
+name = "CompilerSupportLibraries_jll"
+path = "C/CompilerSupportLibraries_jll"
+
+[packages.e9f186c6-92d2-5b65-8a66-fee21dc1b490]
+name = "Libffi_jll"
+path = "L/Libffi_jll"
+
+[packages.ec15993a-68c6-5861-8652-ef539d7ffb0b]
+name = "GCC_jll"
+path = "G/GCC_jll"
+
+[packages.ffd25f8a-64ca-5728-b0f7-c24cf3aae800]
+name = "XZ_jll"
+path = "X/XZ_jll"

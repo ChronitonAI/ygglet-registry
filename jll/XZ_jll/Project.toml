@@ -1,0 +1,12 @@
+version = "5.8.5"
+name = "XZ_jll"
+uuid = "ffd25f8a-64ca-5728-b0f7-c24cf3aae800"
+
+[deps]
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+julia = "1.6"
+LazyJLLWrappers = "1.0.0"

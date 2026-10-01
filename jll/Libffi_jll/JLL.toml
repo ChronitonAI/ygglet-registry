@@ -1,0 +1,45 @@
+version = "3.5.3"
+format_version = "1.0"
+name = "Libffi"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "Libffi"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+deps = []
+lazy = "false"
+src_version = "3.5.2"
+
+    [builds.artifact]
+    treehash = "sha1:b2f158fda8c149a07c1299e3cde451478df11300"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "MIT"
+    license_text = """libffi - Copyright (c) 1996-2025  Anthony Green, Red Hat, Inc and others.\nSee source files for details.\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n``Software''), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED ``AS IS'', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n"""
+
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libffi.so.8.2.0"
+    linkage = "dynamic"
+    type = "library"
+    name = "libffi"
+    soname = "libffi.so.8"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:4c5e7638eedebf670deb208c379af11b005e4fc7"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:de04493c846fc9b8edef9327b6684ce52d63b9d8"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:86c9ea8959e205a9db839aa0f03615abb46c45bf"
+    url = "https://github.com/libffi/libffi/releases/download/v3.5.2/libffi-3.5.2.tar.gz"
+
+    [builds.callback_defs]

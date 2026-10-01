@@ -1,0 +1,4 @@
+name = "Libuuid_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Libuuid_jll"
+uuid = "38a345b3-de98-5d2b-a5d3-14cd9215e700"
