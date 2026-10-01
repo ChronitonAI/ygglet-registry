@@ -1,0 +1,4 @@
+name = "findutils_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/findutils_jll"
+uuid = "b20c2a05-8bc5-5344-9b1c-16e3e9255d47"

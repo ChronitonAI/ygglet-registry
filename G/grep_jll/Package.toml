@@ -1,0 +1,4 @@
+name = "grep_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/grep_jll"
+uuid = "47013893-54eb-5c9c-83b4-9a24496ece36"

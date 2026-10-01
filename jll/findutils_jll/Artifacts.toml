@@ -1,0 +1,10 @@
+[[findutils]]
+arch = "x86_64"
+git-tree-sha1 = "2fa6b41c9a43807eccbedd62cf163e459df99b18"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[findutils.download]]
+    sha256 = "2108ac37cea327905ed226ef99f06eb3775c159386c689ed5193cbf3cca7f11d"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-34aca280af37/findutils-2fa6b41c9a43807eccbedd62cf163e459df99b18.tar.gz"

@@ -1,0 +1,10 @@
+[[Bash]]
+arch = "x86_64"
+git-tree-sha1 = "78c0ca38fa3e25c8b62481c49fc73fc21b53963f"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[Bash.download]]
+    sha256 = "e6ee38b3c3900f62b52ef2f35da5c74f9a56b2dc2667a9ce133e64ba08765f3c"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-34aca280af37/Bash-78c0ca38fa3e25c8b62481c49fc73fc21b53963f.tar.gz"

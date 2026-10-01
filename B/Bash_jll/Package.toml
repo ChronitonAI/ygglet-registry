@@ -1,0 +1,4 @@
+name = "Bash_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Bash_jll"
+uuid = "1440357a-fa87-504e-ade5-63f3061077fd"
