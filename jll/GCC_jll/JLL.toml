@@ -1,4 +1,4 @@
-version = "14.2.5"
+version = "14.2.6"
 format_version = "1.0"
 name = "GCC"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:5c26a2c58dc92df32f404b0595327d6b97304f78"
+    treehash = "sha1:6f119695fb2395731f598f688768ff6898190f0f"
     download_sources = []
 
     [[builds.licenses]]
@@ -47,11 +47,11 @@ src_version = "14.2.0"
     name = "softticks_gcc"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:d7bea19da284d4f8689dc935fd5ee86c279e181e"
+    treehash = "sha1:15f928cf000022a27ce737b74671362b42fc44dc"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:52a5434088d28be0a308f2b6fcdb65852d34a561"
+    treehash = "sha1:870d137df0837d073cb7d35528995762aaab9e03"
     download_sources = []
 
     [[builds.sources]]

@@ -1,10 +1,10 @@
 [[GCC]]
 arch = "x86_64"
-git-tree-sha1 = "5c26a2c58dc92df32f404b0595327d6b97304f78"
+git-tree-sha1 = "6f119695fb2395731f598f688768ff6898190f0f"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[GCC.download]]
-    sha256 = "01d8cde0d0568a853b36342dac8a44e9f82ab20df5ec27eab29e929598ee2584"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c760657df640/GCC-5c26a2c58dc92df32f404b0595327d6b97304f78.tar.gz"
+    sha256 = "e25f826ee669090e2b75994e54f85943246156959272a9abd1f866558ec71725"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-172f4e42553d/GCC-6f119695fb2395731f598f688768ff6898190f0f.tar.gz"
