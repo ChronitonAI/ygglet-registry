@@ -1,0 +1,4 @@
+name = "GDB_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/GDB_jll"
+uuid = "a8b33d9f-0f8b-5197-9986-f85cbaa50c6c"

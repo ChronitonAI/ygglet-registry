@@ -1,0 +1,4 @@
+name = "Tar_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Tar_jll"
+uuid = "9b64493d-8859-5bf3-93d7-7c32dd38186f"

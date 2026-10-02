@@ -1,0 +1,10 @@
+[[Tar]]
+arch = "x86_64"
+git-tree-sha1 = "bd5541a36f934fe43aed7e949493d9ab3f7076e3"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[Tar.download]]
+    sha256 = "5e319af55c5900f61a0dab32401dee60fa8e054bde085e8ddb549a2e955a6184"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-9c95cb21f49d/Tar-bd5541a36f934fe43aed7e949493d9ab3f7076e3.tar.gz"

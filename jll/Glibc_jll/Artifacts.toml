@@ -1,10 +1,10 @@
 [[Glibc]]
 arch = "x86_64"
-git-tree-sha1 = "cb8d3069f87a4c4510d86f5e78125a1f5a02ec41"
+git-tree-sha1 = "51f51c7d0ae454b014b2e7b026df43ff6d70b86d"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[Glibc.download]]
-    sha256 = "a12dbfcdfbb469c056d12786390e7e3a6ce8bed9d44638c95b00964c4047e597"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/Glibc-cb8d3069f87a4c4510d86f5e78125a1f5a02ec41.tar.gz"
+    sha256 = "50b8d263433848508792f6ea60b7bbd649bc5f2e07335ebfdbe5e26faa582bcf"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-9c95cb21f49d/Glibc-51f51c7d0ae454b014b2e7b026df43ff6d70b86d.tar.gz"

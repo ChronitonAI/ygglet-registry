@@ -1,4 +1,4 @@
-version = "14.2.0"
+version = "14.2.2"
 format_version = "1.0"
 name = "CompilerSupportLibraries"
 julia_compat = "1.6"
@@ -62,11 +62,11 @@ src_version = "14.2.0"
     deps = ["libgcc_s"]
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:8ce83d7d348911b0151be9faa54c8f5ccf9c8dd5"
+    treehash = "sha1:fde085033d0250a0d7a68561141dc815a228ef05"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6e6f59ce47b210cc3f3c34327e099aa47e306fd9"
+    treehash = "sha1:c578e6b65d5562df0081158aeaf546d178f4c427"
     download_sources = []
 
     [[builds.sources]]

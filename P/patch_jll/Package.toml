@@ -1,0 +1,4 @@
+name = "patch_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/patch_jll"
+uuid = "c7bec4a6-5215-51fd-b0a3-64ceaaad3a34"

@@ -1,10 +1,10 @@
 [[OpenSSL]]
 arch = "x86_64"
-git-tree-sha1 = "bb4ac19c4e7bb875898ddf0a115fd22d2f023df1"
+git-tree-sha1 = "e1ddb920d2e0aea679058d3368186ccb38d0d821"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[OpenSSL.download]]
-    sha256 = "e0a821d0bf7698c957669498f5f909824f302f1174594d591c5ad1a31d6dcab5"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/OpenSSL-bb4ac19c4e7bb875898ddf0a115fd22d2f023df1.tar.gz"
+    sha256 = "940fbcd0216a44eb69d18ed0755946c2fba794b35bf846057ee026b6a911e2e8"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-9c95cb21f49d/OpenSSL-e1ddb920d2e0aea679058d3368186ccb38d0d821.tar.gz"

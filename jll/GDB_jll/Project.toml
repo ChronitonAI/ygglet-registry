@@ -1,0 +1,19 @@
+version = "16.3.0"
+name = "GDB_jll"
+uuid = "a8b33d9f-0f8b-5197-9986-f85cbaa50c6c"
+
+[deps]
+MPFR_jll = "3a97d323-0669-5f0c-9066-3539efd106a3"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Expat_jll = "2e619515-83b5-522b-bb60-26c02a35a201"
+Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
+LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+Python_jll = "93d3a430-8e7c-50da-8e8d-3dfcfb3baf05"
+XZ_jll = "ffd25f8a-64ca-5728-b0f7-c24cf3aae800"
+Ncurses_jll = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
+GMP_jll = "781609d7-10c4-51f6-84f2-b8444358ff6d"
+
+[compat]
+julia = "1.6"
+LazyJLLWrappers = "1.0.0"

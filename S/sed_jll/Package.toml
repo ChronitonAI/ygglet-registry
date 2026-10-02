@@ -1,0 +1,4 @@
+name = "sed_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/sed_jll"
+uuid = "8ce03227-cf0a-51af-b0b4-2693c0743e9f"

@@ -1,0 +1,4 @@
+name = "gawk_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/gawk_jll"
+uuid = "054acbdd-7fbc-53f6-b51a-0fe4f8189fb8"

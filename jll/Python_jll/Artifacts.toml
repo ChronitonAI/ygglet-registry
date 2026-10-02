@@ -1,0 +1,10 @@
+[[Python]]
+arch = "x86_64"
+git-tree-sha1 = "3a674576de0d9ead7791b57814e456b20979e6d9"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[Python.download]]
+    sha256 = "033afeba167f520e3a1589c29d4161076ae82c1e21212c6f341e8ef89e3dace8"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-9c95cb21f49d/Python-3a674576de0d9ead7791b57814e456b20979e6d9.tar.gz"

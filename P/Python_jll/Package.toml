@@ -1,0 +1,4 @@
+name = "Python_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Python_jll"
+uuid = "93d3a430-8e7c-50da-8e8d-3dfcfb3baf05"
