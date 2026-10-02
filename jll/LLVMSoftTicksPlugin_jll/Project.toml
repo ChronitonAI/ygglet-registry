@@ -1,6 +1,6 @@
-version = "0.1.2"
-name = "Rift_jll"
-uuid = "d8344547-56e3-5283-80c9-82995373be22"
+version = "17.0.0"
+name = "LLVMSoftTicksPlugin_jll"
+uuid = "7f0adc07-ecf3-5941-9330-abc1b1dd7590"
 
 [deps]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"

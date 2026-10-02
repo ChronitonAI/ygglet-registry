@@ -1,0 +1,9 @@
+[[LLVMSoftTicksPlugin]]
+arch = "x86_64"
+git-tree-sha1 = "c138996a04cae29cd0717a74f7d7e1f546ed4578"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMSoftTicksPlugin.download]]
+    sha256 = "9ea535f0df856a4527d97761a98b9a52986bfe4981cd602f6e08ee38425edcd6"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-4de510d2fe48/LLVMSoftTicksPlugin-c138996a04cae29cd0717a74f7d7e1f546ed4578.tar.gz"

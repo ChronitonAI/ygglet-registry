@@ -1,10 +1,10 @@
 [[Rift]]
 arch = "x86_64"
-git-tree-sha1 = "3d47604d4c71d3834774a20b3875e40eba5c6444"
+git-tree-sha1 = "91cb24ebe578d1e2736062dfbace8ab05ce1d3b6"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[Rift.download]]
-    sha256 = "04e5ac727d2e98b5e3ffbcf75c3f49b9d1539a4fd72f04ca61181ff09db9cee2"
-    url = "https://api.github.com/repos/ChronitonAI/rift/releases/assets/606018290"
+    sha256 = "ec6b87ecdddec57e46beee21631808e43940ec478baaf71ea89c3ffab96879dc"
+    url = "https://api.github.com/repos/ChronitonAI/rift/releases/assets/606513436"

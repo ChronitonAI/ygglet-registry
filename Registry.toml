@@ -99,6 +99,10 @@ path = "G/GMP_jll"
 name = "PythonPexpect_jll"
 path = "P/PythonPexpect_jll"
 
+[packages.7f0adc07-ecf3-5941-9330-abc1b1dd7590]
+name = "LLVMSoftTicksPlugin_jll"
+path = "L/LLVMSoftTicksPlugin_jll"
+
 [packages.80e8a3d7-96cb-5b92-b346-c3bbc7c9cf8e]
 name = "less_jll"
 path = "L/less_jll"
