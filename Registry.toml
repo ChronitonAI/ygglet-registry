@@ -159,6 +159,14 @@ path = "L/Libffi_jll"
 name = "GCC_jll"
 path = "G/GCC_jll"
 
+[packages.f0ac80b2-57f4-5c01-bce7-1a80ee7a9f0e]
+name = "which_jll"
+path = "W/which_jll"
+
+[packages.f8f80db2-c0ba-59e9-a5c3-38d72e3c5ac2]
+name = "jq_jll"
+path = "J/jq_jll"
+
 [packages.ffd25f8a-64ca-5728-b0f7-c24cf3aae800]
 name = "XZ_jll"
 path = "X/XZ_jll"

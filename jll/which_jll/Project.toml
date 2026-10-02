@@ -1,0 +1,12 @@
+version = "2.21.0"
+name = "which_jll"
+uuid = "f0ac80b2-57f4-5c01-bce7-1a80ee7a9f0e"
+
+[deps]
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+julia = "1.6"
+LazyJLLWrappers = "1.0.0"
