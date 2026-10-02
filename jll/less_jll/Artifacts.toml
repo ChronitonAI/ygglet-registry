@@ -1,0 +1,10 @@
+[[less]]
+arch = "x86_64"
+git-tree-sha1 = "213b017394f62e07d21b863e7dacac9e95e89540"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[less.download]]
+    sha256 = "c554b642fff488a757f5916f093eeda1266c4892c9c0408181aa19ec7a5b91c0"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-1e7a5ab68809/less-213b017394f62e07d21b863e7dacac9e95e89540.tar.gz"

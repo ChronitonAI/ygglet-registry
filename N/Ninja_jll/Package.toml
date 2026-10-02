@@ -1,0 +1,4 @@
+name = "Ninja_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Ninja_jll"
+uuid = "76642167-d241-5cee-8c94-7a494e8cb7b7"

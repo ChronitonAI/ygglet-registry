@@ -1,0 +1,4 @@
+name = "PythonPexpect_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/PythonPexpect_jll"
+uuid = "7bfa5ad5-8d69-5983-8b78-73ad85a35053"

@@ -1,0 +1,10 @@
+[[CMake]]
+arch = "x86_64"
+git-tree-sha1 = "b21feb87c663c0718756862f6257e17d6de42055"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[CMake.download]]
+    sha256 = "90973f334e66bb8098515c04677564fc150913f15153f741d32a7cf5fedf3cd5"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-1e7a5ab68809/CMake-b21feb87c663c0718756862f6257e17d6de42055.tar.gz"

@@ -1,0 +1,47 @@
+version = "4.9.0"
+format_version = "1.0"
+name = "PythonPexpect"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "PythonPexpect"
+platform = "any"
+deps = []
+lazy = "false"
+src_version = "4.9.0"
+
+    [builds.artifact]
+    treehash = "sha1:dca629f7cc964478db2068ec85cbf8b22c4bbcf6"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "LICENSE"
+    license_type = "ISC"
+    license_text = """ISC LICENSE\n\n    This license is approved by the OSI and FSF as GPL-compatible.\n        http://opensource.org/licenses/isc-license.txt\n\n    Copyright (c) 2013-2014, Pexpect development team\n    Copyright (c) 2012, Noah Spurrier <noah@noah.org>\n\n    Permission to use, copy, modify, and/or distribute this software for any\n    purpose with or without fee is hereby granted, provided that the above\n    copyright notice and this permission notice appear in all copies.\n    \n    THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n    WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n    MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n    ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n    WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n    ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n    OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\n"""
+
+    [[builds.products]]
+    path = "lib/python3.12/site-packages/pexpect/__init__.py"
+    type = "file"
+    name = "pexpect"
+    [[builds.products]]
+    path = "lib/python3.12/site-packages/ptyprocess/__init__.py"
+    type = "file"
+    name = "ptyprocess"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:1a3e831e4f719b4e8df5390bccbee468cf33c7c7"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:d41cdb9f8c76e8661fa489c02b661063c6f5c509"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:18bfe573afd1494b7003fb10ac354a672229a8b8"
+    url = "https://files.pythonhosted.org/packages/source/p/pexpect/pexpect-4.9.0.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:40f5ba179ffeafd34946be76bc66884b3091e367"
+    url = "https://files.pythonhosted.org/packages/source/p/ptyprocess/ptyprocess-0.7.0.tar.gz"
+
+    [builds.callback_defs]

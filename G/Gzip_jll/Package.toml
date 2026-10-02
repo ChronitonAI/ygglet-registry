@@ -1,0 +1,4 @@
+name = "Gzip_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Gzip_jll"
+uuid = "be1be57a-8558-53c3-a7e5-50095f79957e"

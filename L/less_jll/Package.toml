@@ -1,0 +1,4 @@
+name = "less_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/less_jll"
+uuid = "80e8a3d7-96cb-5b92-b346-c3bbc7c9cf8e"

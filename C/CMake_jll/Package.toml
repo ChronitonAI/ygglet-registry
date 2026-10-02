@@ -1,0 +1,4 @@
+name = "CMake_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/CMake_jll"
+uuid = "3f4e10e2-61f2-5801-8945-23b9d642d0e6"

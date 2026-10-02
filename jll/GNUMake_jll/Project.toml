@@ -1,0 +1,12 @@
+version = "4.4.2"
+name = "GNUMake_jll"
+uuid = "6c1a3432-6b93-5c89-98b5-f3caf0c092ba"
+
+[deps]
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+julia = "1.6"
+LazyJLLWrappers = "1.0.0"

@@ -1,0 +1,6 @@
+[PythonPexpect]
+git-tree-sha1 = "dca629f7cc964478db2068ec85cbf8b22c4bbcf6"
+
+    [[PythonPexpect.download]]
+    sha256 = "dfb7795b0631ff95c92ec24f91c8659c4b50eac6cdce96ff350e38c4c7528965"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-1e7a5ab68809/PythonPexpect-dca629f7cc964478db2068ec85cbf8b22c4bbcf6.tar.gz"

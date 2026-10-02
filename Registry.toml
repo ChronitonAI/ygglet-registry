@@ -11,6 +11,10 @@ path = "R/Readline_jll"
 name = "gawk_jll"
 path = "G/gawk_jll"
 
+[packages.067cb88e-f685-5f7b-ae80-0aaea8472f72]
+name = "procps_jll"
+path = "P/procps_jll"
+
 [packages.11f5bf75-d780-529b-b59b-a3a04c974070]
 name = "diffutils_jll"
 path = "D/diffutils_jll"
@@ -18,6 +22,10 @@ path = "D/diffutils_jll"
 [packages.1440357a-fa87-504e-ade5-63f3061077fd]
 name = "Bash_jll"
 path = "B/Bash_jll"
+
+[packages.14a3606d-f60d-562e-9121-12d972cd8159]
+name = "MozillaCACerts_jll"
+path = "M/MozillaCACerts_jll"
 
 [packages.2e619515-83b5-522b-bb60-26c02a35a201]
 name = "Expat_jll"
@@ -34,6 +42,10 @@ path = "L/Libuuid_jll"
 [packages.3a97d323-0669-5f0c-9066-3539efd106a3]
 name = "MPFR_jll"
 path = "M/MPFR_jll"
+
+[packages.3f4e10e2-61f2-5801-8945-23b9d642d0e6]
+name = "CMake_jll"
+path = "C/CMake_jll"
 
 [packages.452aa2e7-e185-58db-8ff9-d3c1fa4bc997]
 name = "Glibc_jll"
@@ -63,9 +75,17 @@ path = "G/GCCSoftTicksPlugin_jll"
 name = "Ncurses_jll"
 path = "N/Ncurses_jll"
 
+[packages.6c1a3432-6b93-5c89-98b5-f3caf0c092ba]
+name = "GNUMake_jll"
+path = "G/GNUMake_jll"
+
 [packages.6e34b625-4abd-537c-b88f-471c36dfa7a0]
 name = "Bzip2_jll"
 path = "B/Bzip2_jll"
+
+[packages.76642167-d241-5cee-8c94-7a494e8cb7b7]
+name = "Ninja_jll"
+path = "N/Ninja_jll"
 
 [packages.76ed43ae-9a5d-5a62-8c75-30186b810ce8]
 name = "SQLite_jll"
@@ -74,6 +94,14 @@ path = "S/SQLite_jll"
 [packages.781609d7-10c4-51f6-84f2-b8444358ff6d]
 name = "GMP_jll"
 path = "G/GMP_jll"
+
+[packages.7bfa5ad5-8d69-5983-8b78-73ad85a35053]
+name = "PythonPexpect_jll"
+path = "P/PythonPexpect_jll"
+
+[packages.80e8a3d7-96cb-5b92-b346-c3bbc7c9cf8e]
+name = "less_jll"
+path = "L/less_jll"
 
 [packages.83775a58-1f1d-513f-b197-d71354ab007a]
 name = "Zlib_jll"
@@ -91,6 +119,10 @@ path = "P/Python_jll"
 name = "Tar_jll"
 path = "T/Tar_jll"
 
+[packages.9fa45d4d-1b7c-5723-af47-664aed758436]
+name = "file_jll"
+path = "F/file_jll"
+
 [packages.a8b33d9f-0f8b-5197-9986-f85cbaa50c6c]
 name = "GDB_jll"
 path = "G/GDB_jll"
@@ -99,6 +131,10 @@ path = "G/GDB_jll"
 name = "findutils_jll"
 path = "F/findutils_jll"
 
+[packages.be1be57a-8558-53c3-a7e5-50095f79957e]
+name = "Gzip_jll"
+path = "G/Gzip_jll"
+
 [packages.c7bec4a6-5215-51fd-b0a3-64ceaaad3a34]
 name = "patch_jll"
 path = "P/patch_jll"
@@ -106,6 +142,10 @@ path = "P/patch_jll"
 [packages.d754bdc3-4c87-55c0-a004-f56830624a1e]
 name = "LinuxKernelHeaders_jll"
 path = "L/LinuxKernelHeaders_jll"
+
+[packages.d8344547-56e3-5283-80c9-82995373be22]
+name = "Rift_jll"
+path = "R/Rift_jll"
 
 [packages.e66e0078-7015-5450-92f7-15fbd957f2ae]
 name = "CompilerSupportLibraries_jll"

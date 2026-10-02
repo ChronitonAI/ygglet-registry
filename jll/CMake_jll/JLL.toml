@@ -1,0 +1,47 @@
+version = "4.4.2"
+format_version = "1.0"
+name = "CMake"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "CMake"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+lazy = "false"
+src_version = "4.4.1"
+
+    [builds.artifact]
+    treehash = "sha1:b21feb87c663c0718756862f6257e17d6de42055"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "LICENSE.rst"
+    license_type = "BSD-3-Clause"
+    license_text = """Copyright 2000-2026 Kitware, Inc. and `Contributors <CONTRIBUTORS.rst>`_\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n* Redistributions of source code must retain the above copyright\n  notice, this list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright\n  notice, this list of conditions and the following disclaimer in the\n  documentation and/or other materials provided with the distribution.\n\n* Neither the name of Kitware, Inc. nor the names of Contributors\n  may be used to endorse or promote products derived from this\n  software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\nA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nHOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"""
+
+    [[builds.products]]
+    path = "bin/cmake"
+    type = "executable"
+    name = "cmake"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:5b340a12ff9d3a38b2be34acb9c5445f8a519b88"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:a549e7190326a1aab7064eeed50c9a5ee58b8408"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:d1cffecacdfd7d6fb0cda0d1e0bf1ba30b967019"
+    url = "https://github.com/Kitware/CMake"
+    [[builds.sources]]
+    treehash = "sha1:a0e10e6a92f69621c257f3b63f8316bd64006c95"
+    url = "/workspace/Yggdrasil/C/CMake/bundled"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "OpenSSL_jll"
+    compat = "*"
+    uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"

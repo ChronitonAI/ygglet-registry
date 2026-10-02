@@ -1,0 +1,10 @@
+[[Ninja]]
+arch = "x86_64"
+git-tree-sha1 = "f679bc5af28d42e43a97459f2c1f4637bee42721"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[Ninja.download]]
+    sha256 = "e1356b8f5bbfa290e16605e7dcd6a6b38a4fb8ba082302648e1543aece68b698"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-1e7a5ab68809/Ninja-f679bc5af28d42e43a97459f2c1f4637bee42721.tar.gz"

@@ -1,0 +1,4 @@
+name = "file_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/file_jll"
+uuid = "9fa45d4d-1b7c-5723-af47-664aed758436"

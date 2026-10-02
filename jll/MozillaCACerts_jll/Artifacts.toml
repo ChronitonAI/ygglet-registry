@@ -1,0 +1,6 @@
+[MozillaCACerts]
+git-tree-sha1 = "ff907cc85be470029da013d1c8d282096cf22fc3"
+
+    [[MozillaCACerts.download]]
+    sha256 = "9bef890ffdc8ffbb1696871569f2dfd59eb10813ad474082b6d4d323f8389392"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-1e7a5ab68809/MozillaCACerts-ff907cc85be470029da013d1c8d282096cf22fc3.tar.gz"

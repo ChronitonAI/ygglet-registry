@@ -1,0 +1,4 @@
+name = "GNUMake_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/GNUMake_jll"
+uuid = "6c1a3432-6b93-5c89-98b5-f3caf0c092ba"

@@ -1,0 +1,52 @@
+version = "5.41.1"
+format_version = "1.0"
+name = "file"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "file"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+lazy = "false"
+src_version = "5.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:8964a5ae646ca7b1ebb65f93080bd2350611275b"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "COPYING"
+    license_type = "BSD-2-Clause"
+    license_text = """$File: COPYING,v 1.2 2018/09/09 20:33:28 christos Exp $\nCopyright (c) Ian F. Darwin 1986, 1987, 1989, 1990, 1991, 1992, 1994, 1995.\nSoftware written by Ian F. Darwin and others;\nmaintained 1994- Christos Zoulas.\n\nThis software is not subject to any export provision of the United States\nDepartment of Commerce, and may be exported to any country or planet.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice immediately at the beginning of the file, without modification,\n   this list of conditions, and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.\n"""
+
+    [[builds.products]]
+    path = "bin/file"
+    type = "executable"
+    name = "file"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:014fbc04b8c09d7a930189e714af5939f3b3aacc"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:570cfdbcccdb47868544d3623cbfd790fcc750c4"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:504206e53a89fd6eed71aeaf878aa3512418eab1"
+    url = "https://github.com/file/file.git"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Bzip2_jll"
+    compat = "*"
+    uuid = "6e34b625-4abd-537c-b88f-471c36dfa7a0"
+    [[builds.deps]]
+    name = "XZ_jll"
+    compat = "*"
+    uuid = "ffd25f8a-64ca-5728-b0f7-c24cf3aae800"
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "*"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"

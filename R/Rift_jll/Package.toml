@@ -1,0 +1,4 @@
+name = "Rift_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/Rift_jll"
+uuid = "d8344547-56e3-5283-80c9-82995373be22"

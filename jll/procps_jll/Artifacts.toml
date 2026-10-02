@@ -1,0 +1,10 @@
+[[procps]]
+arch = "x86_64"
+git-tree-sha1 = "e4e808bac5ff4b2b81eefb6a1030906de2e7b5a3"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[procps.download]]
+    sha256 = "b0fa0f72b7018b0437432dd85667dacbe9c8699a65eaa9e832f0f1952bc0876b"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-1e7a5ab68809/procps-e4e808bac5ff4b2b81eefb6a1030906de2e7b5a3.tar.gz"
