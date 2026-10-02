@@ -1,4 +1,4 @@
-version = "14.2.6"
+version = "14.2.7"
 format_version = "1.0"
 name = "CompilerSupportLibraries"
 julia_compat = "1.6"
@@ -63,11 +63,11 @@ src_version = "14.2.0"
     deps = ["libgcc_s"]
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4a9ec2bf99a4cacc79e6bb057a3c1d1e42492253"
+    treehash = "sha1:07af5d04187d84c686141c2fa852739c2fd2a732"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:870d137df0837d073cb7d35528995762aaab9e03"
+    treehash = "sha1:3d360d4488723debffa7f7e51a55a2ddb3805b12"
     download_sources = []
 
     [[builds.sources]]
@@ -86,7 +86,7 @@ src_version = "14.2.0"
     treehash = "sha1:b22c1e4e2413d9a0ec828a92c0b6efd29ecdafa5"
     url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:2b81cfff780b51dd752ae96b176d0f0e27ebada3"
+    treehash = "sha1:34cb5d4d4ceeeebee0320accd8976792aa6e94f8"
     url = "https://github.com/ChronitonAI/rift.git"
 
     [builds.callback_defs]
