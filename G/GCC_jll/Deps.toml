@@ -24,3 +24,9 @@ Glibc_jll = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"
 LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinuxKernelHeaders_jll = "d754bdc3-4c87-55c0-a004-f56830624a1e"
+
+["14.2.4"]
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"

@@ -1,4 +1,4 @@
-version = "14.2.3"
+version = "14.2.4"
 format_version = "1.0"
 name = "GCC"
 julia_compat = "1.6"
@@ -47,11 +47,11 @@ src_version = "14.2.0"
     name = "softticks_gcc"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:198793bd39cf203068a5894f451507a8bd9f1a21"
+    treehash = "sha1:b80b6631aa57d8a45ef9e9f615425f7c4922c539"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0ece6bdeabb82a395e2ea312df590b7f8ea6d97b"
+    treehash = "sha1:7b5ecb3f02c8274f98bb5be686da81b916d423d1"
     download_sources = []
 
     [[builds.sources]]
@@ -75,18 +75,6 @@ src_version = "14.2.0"
 
     [builds.callback_defs]
 
-    [[builds.deps]]
-    name = "Glibc_jll"
-    compat = "*"
-    uuid = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"
-    [[builds.deps]]
-    name = "LinuxKernelHeaders_jll"
-    compat = "*"
-    uuid = "d754bdc3-4c87-55c0-a004-f56830624a1e"
-    [[builds.deps]]
-    name = "Binutils_jll"
-    compat = "*"
-    uuid = "489e263e-5428-50b0-a723-147a141b401e"
     [[builds.deps]]
     name = "CompilerSupportLibraries_jll"
     compat = "*"

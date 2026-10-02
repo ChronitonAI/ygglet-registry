@@ -1,14 +1,11 @@
-version = "14.2.3"
+version = "14.2.4"
 name = "CompilerSupportLibraries_jll"
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 
 [deps]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-Glibc_jll = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"
 LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
-Binutils_jll = "489e263e-5428-50b0-a723-147a141b401e"
-LinuxKernelHeaders_jll = "d754bdc3-4c87-55c0-a004-f56830624a1e"
 
 [compat]
 julia = "1.6"

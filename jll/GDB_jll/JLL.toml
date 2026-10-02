@@ -1,4 +1,4 @@
-version = "16.3.0"
+version = "16.3.1"
 format_version = "1.0"
 name = "GDB"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "16.3.0"
 
     [builds.artifact]
-    treehash = "sha1:5d8593320ab4c9162cf37b09ad1f1cc3d7b52151"
+    treehash = "sha1:abef150f1091da68312db2d7ce48ddf63dd65823"
     download_sources = []
 
     [[builds.licenses]]
@@ -29,11 +29,11 @@ src_version = "16.3.0"
     name = "gdb"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:ee26d2d331f229415611dea3932dc320491d5489"
+    treehash = "sha1:23dccf31f9d82d3d421e78ac3ed1a9b01279f444"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a04d1207388271653255bdab2af208409b08a675"
+    treehash = "sha1:0a9f66b0429f127c098409def0b2ed7ed674e974"
     download_sources = []
 
     [[builds.sources]]
@@ -70,3 +70,7 @@ src_version = "16.3.0"
     name = "XZ_jll"
     compat = "*"
     uuid = "ffd25f8a-64ca-5728-b0f7-c24cf3aae800"
+    [[builds.deps]]
+    name = "CompilerSupportLibraries_jll"
+    compat = "*"
+    uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"

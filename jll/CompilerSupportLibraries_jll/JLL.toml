@@ -1,4 +1,4 @@
-version = "14.2.3"
+version = "14.2.4"
 format_version = "1.0"
 name = "CompilerSupportLibraries"
 julia_compat = "1.6"
@@ -7,6 +7,7 @@ platform_augmentation_code = ""
 [[builds]]
 name = "CompilerSupportLibraries"
 platform = "x86_64-linux-gnu-rr_softticks+1"
+deps = []
 lazy = "false"
 src_version = "14.2.0"
 
@@ -62,11 +63,11 @@ src_version = "14.2.0"
     deps = ["libgcc_s"]
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:18a8adec9b9d7947332357c649e1fd67e65cdcb7"
+    treehash = "sha1:63e3a2c4ac80cd5ef680524fdcdfdd9fe7ad9fdb"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0ece6bdeabb82a395e2ea312df590b7f8ea6d97b"
+    treehash = "sha1:7b5ecb3f02c8274f98bb5be686da81b916d423d1"
     download_sources = []
 
     [[builds.sources]]
@@ -89,16 +90,3 @@ src_version = "14.2.0"
     url = "https://github.com/ChronitonAI/rift.git"
 
     [builds.callback_defs]
-
-    [[builds.deps]]
-    name = "Glibc_jll"
-    compat = "*"
-    uuid = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"
-    [[builds.deps]]
-    name = "LinuxKernelHeaders_jll"
-    compat = "*"
-    uuid = "d754bdc3-4c87-55c0-a004-f56830624a1e"
-    [[builds.deps]]
-    name = "Binutils_jll"
-    compat = "*"
-    uuid = "489e263e-5428-50b0-a723-147a141b401e"

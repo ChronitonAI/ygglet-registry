@@ -1,4 +1,4 @@
-version = "2.41.1"
+version = "2.41.2"
 format_version = "1.0"
 name = "Glibc"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:51f51c7d0ae454b014b2e7b026df43ff6d70b86d"
+    treehash = "sha1:13c8f3fdf2f5b94b8aa8128f07152e19fbf593ef"
     download_sources = []
 
     [[builds.licenses]]
@@ -41,11 +41,11 @@ src_version = "2.41.0"
     name = "libm"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:0f2e23a3f2995552698e344260ebb4b4081be766"
+    treehash = "sha1:ef6870e5470e89fee5c766f7b6e2d5cde1aae497"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:32bd853e07ffc3efacb6fe61157faea4c8caea2a"
+    treehash = "sha1:885db2a4d1b0134b13ea6cb75e03d705a0fa5175"
     download_sources = []
 
     [[builds.sources]]
