@@ -1,0 +1,52 @@
+version = "2.3.0"
+format_version = "1.0"
+name = "pkgconf"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "pkgconf"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+deps = []
+lazy = "false"
+src_version = "2.3.0"
+
+    [builds.artifact]
+    treehash = "sha1:53067b58b9d667711c41b1ffccced6dd634e3c55"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "COPYING"
+    license_text = """Copyright (c) 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018\n    pkgconf authors (see AUTHORS file in source directory).\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n\nThis software is provided 'as is' and without any warranty, express or\nimplied.  In no event shall the authors be liable for any damages arising\nfrom the use of this software.\n"""
+
+    [[builds.products]]
+    path = "bin/pkgconf"
+    type = "executable"
+    name = "pkgconf"
+    [[builds.products]]
+    path = "bin/pkg-config"
+    type = "executable"
+    name = "pkg_config"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libpkgconf.so.5.0.0"
+    linkage = "dynamic"
+    type = "library"
+    name = "libpkgconf"
+    soname = "libpkgconf.so.5"
+    system_deps = ["c"]
+    deps = []
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:f3d290c6010143263c441fdd4ae04dcf6f23328b"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:c9fb8a3e7232a86357d8f8fd31abff4fdfd58182"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:02340b44ac3e19e28ea363da3a70487d3babfc52"
+    url = "https://distfiles.ariadne.space/pkgconf/pkgconf-2.3.0.tar.xz"
+
+    [builds.callback_defs]

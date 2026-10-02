@@ -123,6 +123,10 @@ path = "T/Tar_jll"
 name = "file_jll"
 path = "F/file_jll"
 
+[packages.a762b42e-dc87-5958-a639-9c9eec9c0153]
+name = "util_linux_jll"
+path = "U/util_linux_jll"
+
 [packages.a8b33d9f-0f8b-5197-9986-f85cbaa50c6c]
 name = "GDB_jll"
 path = "G/GDB_jll"
@@ -138,6 +142,10 @@ path = "G/Gzip_jll"
 [packages.c7bec4a6-5215-51fd-b0a3-64ceaaad3a34]
 name = "patch_jll"
 path = "P/patch_jll"
+
+[packages.d1ad5c20-64ab-5c34-9515-6831b3a8590b]
+name = "pkgconf_jll"
+path = "P/pkgconf_jll"
 
 [packages.d754bdc3-4c87-55c0-a004-f56830624a1e]
 name = "LinuxKernelHeaders_jll"

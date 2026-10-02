@@ -1,0 +1,4 @@
+name = "util_linux_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/util_linux_jll"
+uuid = "a762b42e-dc87-5958-a639-9c9eec9c0153"

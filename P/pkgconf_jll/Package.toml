@@ -1,0 +1,4 @@
+name = "pkgconf_jll"
+repo = "https://github.com/ChronitonAI/ygglet-registry.git"
+subdir = "jll/pkgconf_jll"
+uuid = "d1ad5c20-64ab-5c34-9515-6831b3a8590b"
