@@ -15,6 +15,12 @@ gcc -fplugin=build/lib/rift/softticks_gcc.so -O2 -c foo.c
 
 Pass the plugin to every compile and, with `-flto`, to the link as well (see below).
 
+The plugin predefines `__RR_SOFTTICKS__` (the ABI version, `1`) in every translation unit
+it is loaded into (C, C++, `-E`, and assembler-with-cpp `.S` files), so code it cannot
+instrument (loops in inline assembly or hand-written assembly) can tick by hand only when
+it is built for software ticks: `#ifdef __RR_SOFTTICKS__` … `RR_SOFTTICK()` (or the
+`RR_SOFTTICKS_TICK_ASM` sequence in assembly) … `#endif`.
+
 Options:
 
 - `-fplugin-arg-softticks_gcc-stats` prints the number of tick sequences inserted per
