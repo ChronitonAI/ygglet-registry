@@ -1,4 +1,4 @@
-version = "14.2.1"
+version = "14.2.2"
 format_version = "1.0"
 name = "GCCSoftTicksPlugin"
 julia_compat = "1.6"
@@ -6,13 +6,13 @@ platform_augmentation_code = ""
 
 [[builds]]
 name = "GCCSoftTicksPlugin"
-platform = "x86_64-linux-gnu-rr_softticks+1"
+platform = "x86_64-linux-gnu"
 deps = []
 lazy = "false"
 src_version = "14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:680d2c457c756d343a430792ceef7f3ebbdb29fd"
+    treehash = "sha1:d108879949373dfabf404bbaf0477dcaf43952f5"
     download_sources = []
 
     [[builds.licenses]]
@@ -29,11 +29,11 @@ src_version = "14.2.0"
     name = "rr_softticks_h"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9c38b840eb458e0668f820472fa7d9ddb9012b54"
+    treehash = "sha1:e055729a418eac4e2d1fd49daab0e0ce9a30d731"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b1f9ac9b6df33163b86c2f8df7dada9b833f50e2"
+    treehash = "sha1:7909ac38e8b836684fbb70a8a8e38ba6021bc829"
     download_sources = []
 
     [[builds.sources]]
