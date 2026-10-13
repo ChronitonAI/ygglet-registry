@@ -70,8 +70,10 @@ On sqlite3.c (3.49.1, x86-64) the static tick sites went from 15624 (v1) to 4080
 
 A module with at least one tick also gets the initializer (`RR_SOFTTICKS_*_INIT_ASM`) as module
 inline asm, once; it also carries the `.note.rrsoftticks` note in the initializer's COMDAT group,
-so each linked module has one. A module whose functions are all skipped has no ticks, no
-initializer and no note. Every processed module is marked with the module flag `rr.softticks` = ABI
+so each linked module has one. A module whose module asm already defines the initializer
+(hand-instrumented code, `__asm__(RR_SOFTTICKS_INIT_ASM);`, like rr's `software_ticks*` tests) gets the
+ticks but not a second copy, which the assembler would reject (`exec/hand.c`). A module whose
+functions are all skipped has no ticks, no initializer and no note. Every processed module is marked with the module flag `rr.softticks` = ABI
 version (behaviour `Max`); a marked module is never instrumented again.
 
 Targets: ELF x86-64 (not x32), i386/i686, aarch64, from the module's triple. For anything else

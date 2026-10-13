@@ -71,7 +71,10 @@ translation unit with at least one tick also gets `RR_SOFTTICKS_*_INIT_ASM`, wri
 assembler output once at the end of the unit: the page-mapping initializer (on i386 it also
 sets the countdown to 2^64 - 1 ticks to go when it creates the page), its `.init_array` entry and the
 `.note.rrsoftticks` note, all in the initializer's COMDAT group, so each linked module
-(executable or shared library) has exactly one of each.
+(executable or shared library) has exactly one of each. A unit whose own toplevel asm already
+defines the initializer (hand-instrumented code, `__asm__(RR_SOFTTICKS_INIT_ASM);`, like rr's
+`software_ticks*` tests) gets the ticks but not a second copy, which the assembler would reject
+(`hand.c` in the tests).
 
 Targets: x86-64 (LP64), i386 (`-m32`) and aarch64 (LP64; untested, the plugin has not been
 built for an aarch64 GCC). The target family comes from the configured target's headers the
