@@ -1,4 +1,4 @@
-version = "9.11.1"
+version = "9.11.2"
 format_version = "1.0"
 name = "coreutils"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "9.11.0"
 
     [builds.artifact]
-    treehash = "sha1:9052d391db0db312b542b1b0bc8cbe56405b455e"
+    treehash = "sha1:1e1ba26d81b148b8509589694cd761717fbae93d"
     download_sources = []
 
     [[builds.licenses]]
@@ -123,7 +123,7 @@ src_version = "9.11.0"
     [[builds.products]]
     path = "bin/head"
     type = "executable"
-    name = "head"
+    name = "head_bin"
     [[builds.products]]
     path = "bin/split"
     type = "executable"
@@ -439,11 +439,11 @@ src_version = "9.11.0"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:6aae6450a3a1899307337b419c0841e73c56ec6d"
+    treehash = "sha1:4f8b6fba5c14c7c46d5a573c4f9c6d7f2c781642"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:9cfc5135872c328b64f32a89f078c8b4f3c13c9d"
+    treehash = "sha1:398fd69b477cae85c086604c239d2667c48af9b3"
     download_sources = []
 
     [[builds.sources]]

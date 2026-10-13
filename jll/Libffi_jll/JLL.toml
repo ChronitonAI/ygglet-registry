@@ -1,4 +1,4 @@
-version = "3.5.3"
+version = "3.5.4"
 format_version = "1.0"
 name = "Libffi"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "3.5.2"
 
     [builds.artifact]
-    treehash = "sha1:b2f158fda8c149a07c1299e3cde451478df11300"
+    treehash = "sha1:5a04e4ef026187d75074d7c03fc09cae712b848c"
     download_sources = []
 
     [[builds.licenses]]
@@ -31,11 +31,11 @@ src_version = "3.5.2"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4c5e7638eedebf670deb208c379af11b005e4fc7"
+    treehash = "sha1:a47304c5b791c1e3f86bdbcbe0230f0534387d54"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:de04493c846fc9b8edef9327b6684ce52d63b9d8"
+    treehash = "sha1:420c2b926a1e5a9008514235fc8f2023036a427e"
     download_sources = []
 
     [[builds.sources]]

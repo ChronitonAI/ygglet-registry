@@ -1,4 +1,4 @@
-version = "3.12.1"
+version = "3.12.2"
 format_version = "1.0"
 name = "grep"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "3.12.0"
 
     [builds.artifact]
-    treehash = "sha1:2626fb0323b43c8e1c97678b924fde359f515aaa"
+    treehash = "sha1:b157248f10e5bc09d41e4b3100cafc8e0d102dcf"
     download_sources = []
 
     [[builds.licenses]]
@@ -26,11 +26,11 @@ src_version = "3.12.0"
     name = "grep"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:38a18d26c68ae7c891660181faf2257611e85c1c"
+    treehash = "sha1:e152bc405cd83e5e939f421da55b779ce48b5d15"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0210c97d014af761ccd23b81d0048532c2fc7768"
+    treehash = "sha1:601fa6ba9ae2745061be731ff2b78a6f074de179"
     download_sources = []
 
     [[builds.sources]]

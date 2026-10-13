@@ -5,3 +5,7 @@ julia = "1.6.0-1"
 ["8.3.5"]
 LazyJLLWrappers = "1"
 julia = "1.6.0-1"
+
+["8.3.6"]
+LazyJLLWrappers = "1"
+julia = "1.6.0-1"

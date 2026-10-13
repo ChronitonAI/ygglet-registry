@@ -1,4 +1,4 @@
-version = "2.42.1"
+version = "2.42.2"
 format_version = "1.0"
 name = "util_linux"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "2.42.0"
 
     [builds.artifact]
-    treehash = "sha1:365c3747f37c5a3e425c86313756b8b3430ad200"
+    treehash = "sha1:86e1a0a1a47fe26d6767b22649e51f093cb6fce9"
     download_sources = []
 
     [[builds.licenses]]
@@ -53,11 +53,11 @@ src_version = "2.42.0"
     name = "taskset_exe"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a63ff6437a4f0e3af2e2660a160dbcba51fffcdd"
+    treehash = "sha1:053f14df4fd3cade955d529559702382ec551784"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:de6861f75cff8d5842351835325208a880a0ef44"
+    treehash = "sha1:213559000e37b4dab45d16dd995b2d2a7996050b"
     download_sources = []
 
     [[builds.sources]]

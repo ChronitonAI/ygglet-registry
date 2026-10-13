@@ -1,4 +1,4 @@
-version = "6.3.1"
+version = "6.3.2"
 format_version = "1.0"
 name = "GMP"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "6.3.0"
 
     [builds.artifact]
-    treehash = "sha1:6f23d7587c3457fe0e8a120b9fa84c71da2a7abc"
+    treehash = "sha1:ff2ca1138e8ded6e3c9a9c0d471133546355880f"
     download_sources = []
 
     [[builds.licenses]]
@@ -50,11 +50,11 @@ src_version = "6.3.0"
     deps = ["libgmp"]
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4df74413df5e0683953aaabd6791160ccd055de3"
+    treehash = "sha1:bec24cd7fbd2172f807b998ce445df4528928adf"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:d9ed411a10b521fa0c8eadc2d73ea96f15b0a047"
+    treehash = "sha1:d87c4de94b0a9c46f71d4cc45d8c643f3a4195b9"
     download_sources = []
 
     [[builds.sources]]

@@ -69,7 +69,7 @@ Each tick is the target's tick sequence (`RR_SOFTTICKS_{X64,X86,ARM64}_TICK_ASM`
 volatile `asm` with no operands, clobbering `"cc"` (x86) or `"x16", "x17"` (aarch64). A
 translation unit with at least one tick also gets `RR_SOFTTICKS_*_INIT_ASM`, written to the
 assembler output once at the end of the unit: the page-mapping initializer (on i386 it also
-sets the disarmed word when it creates the page), its `.init_array` entry and the
+sets the countdown to 2^64 - 1 ticks to go when it creates the page), its `.init_array` entry and the
 `.note.rrsoftticks` note, all in the initializer's COMDAT group, so each linked module
 (executable or shared library) has exactly one of each.
 

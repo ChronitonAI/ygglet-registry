@@ -1,4 +1,4 @@
-version = "2.8.5"
+version = "2.8.6"
 format_version = "1.0"
 name = "Expat"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "2.8.4"
 
     [builds.artifact]
-    treehash = "sha1:4f7b3bd1ec88928ce1009896c9f0ec9bf11ff469"
+    treehash = "sha1:f3a2c6768a45adac3c213c331f5f25db23f5ff5a"
     download_sources = []
 
     [[builds.licenses]]
@@ -35,11 +35,11 @@ src_version = "2.8.4"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a8bcca64e0dc3eb141cabfa1c169c8fe526207ec"
+    treehash = "sha1:1ee2abd01f0295272d6a8aa7371d53468d0a6263"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b267430d288193033c6007e63b48cf3a681a46ad"
+    treehash = "sha1:54435d1a2fdc66aab1c003c4c498535af1af76e2"
     download_sources = []
 
     [[builds.sources]]

@@ -1,10 +1,10 @@
 [[MPFR]]
 arch = "x86_64"
-git-tree-sha1 = "12bd91d9a7a017823967bae0fdb172fcac7d4279"
+git-tree-sha1 = "1852728041dc1576a6fa39e37266a17918cde8f5"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[MPFR.download]]
-    sha256 = "a31bceec421be84f0b4b955aa9a34ccf2784bd0d2d7412b282460aa4c540eed0"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-34aca280af37/MPFR-12bd91d9a7a017823967bae0fdb172fcac7d4279.tar.gz"
+    sha256 = "cb089d5e26f6569b50f7fa33b2d0224e4ae9c7e41286a4d64300d778105498e1"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/MPFR-1852728041dc1576a6fa39e37266a17918cde8f5.tar.gz"

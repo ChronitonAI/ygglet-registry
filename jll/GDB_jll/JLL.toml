@@ -1,4 +1,4 @@
-version = "16.3.1"
+version = "16.3.2"
 format_version = "1.0"
 name = "GDB"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "16.3.0"
 
     [builds.artifact]
-    treehash = "sha1:abef150f1091da68312db2d7ce48ddf63dd65823"
+    treehash = "sha1:07dd6892310b8fcf2b40c31bfd3f1a7a3ba270ee"
     download_sources = []
 
     [[builds.licenses]]
@@ -29,11 +29,11 @@ src_version = "16.3.0"
     name = "gdb"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:23dccf31f9d82d3d421e78ac3ed1a9b01279f444"
+    treehash = "sha1:dcf6fbd4633a15305643623ea4110365d5997c89"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0a9f66b0429f127c098409def0b2ed7ed674e974"
+    treehash = "sha1:96befb915c3419f5f9163b5a533634231551738f"
     download_sources = []
 
     [[builds.sources]]

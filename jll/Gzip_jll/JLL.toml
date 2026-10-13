@@ -1,4 +1,4 @@
-version = "1.14.1"
+version = "1.14.2"
 format_version = "1.0"
 name = "Gzip"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "1.14.0"
 
     [builds.artifact]
-    treehash = "sha1:2ba517de13dc3857e62b3399f7398ab6c189851c"
+    treehash = "sha1:b9cb20350944147d5531d070fe64f5fbd9681963"
     download_sources = []
 
     [[builds.licenses]]
@@ -26,11 +26,11 @@ src_version = "1.14.0"
     name = "gzip"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:175afc1ce44e351263e7b610b50347e0ec19d37c"
+    treehash = "sha1:7291af2ce6a85be24640cd5498dd293b33dc3dbb"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0bc221b1d6e0517fe6317662f21bf551d9743959"
+    treehash = "sha1:5b41eea1368b2c42073f1ffea87162e0bdd36613"
     download_sources = []
 
     [[builds.sources]]

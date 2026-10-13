@@ -1,4 +1,4 @@
-version = "5.2.0"
+version = "5.2.1"
 format_version = "1.0"
 name = "Bash"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "5.2.37"
 
     [builds.artifact]
-    treehash = "sha1:78c0ca38fa3e25c8b62481c49fc73fc21b53963f"
+    treehash = "sha1:2dbfec939d6d7467613656e08ec7565b3ca0eae8"
     download_sources = []
 
     [[builds.licenses]]
@@ -24,11 +24,11 @@ src_version = "5.2.37"
     name = "bash"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:80fcb20a57043b5cf2d05553641bb7767b46c017"
+    treehash = "sha1:b0bbb2d8bd23910d7bb66130905b2cc3b588e458"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:d1dc50774b11b85908ebfb489f1303fdddaf9d09"
+    treehash = "sha1:d104ae33b2cd4dbc24520186f07929a5cc126936"
     download_sources = []
 
     [[builds.sources]]

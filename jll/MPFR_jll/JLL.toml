@@ -1,4 +1,4 @@
-version = "4.2.3"
+version = "4.2.4"
 format_version = "1.0"
 name = "MPFR"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "4.2.2"
 
     [builds.artifact]
-    treehash = "sha1:12bd91d9a7a017823967bae0fdb172fcac7d4279"
+    treehash = "sha1:1852728041dc1576a6fa39e37266a17918cde8f5"
     download_sources = []
 
     [[builds.licenses]]
@@ -30,11 +30,11 @@ src_version = "4.2.2"
     deps = ["GMP_jll.libgmp"]
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:c6a1e5d59eff1ce01615b14b9ef4096f0c8da21a"
+    treehash = "sha1:038bb46bc584e6eaf364411e58045ae4d742f126"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:21fe99aa7f99580f26f6a44d61ca6f42927ccc65"
+    treehash = "sha1:cb527fbe4bba8940dd9a12156a83271e9167489f"
     download_sources = []
 
     [[builds.sources]]

@@ -1,4 +1,4 @@
-version = "6.6.1"
+version = "6.6.2"
 format_version = "1.0"
 name = "Ncurses"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "6.6.0"
 
     [builds.artifact]
-    treehash = "sha1:8f0b02a9dfaae118d78c8d4fa68acc03d8cb5e8f"
+    treehash = "sha1:c7318444fc753c3840c82ff98888ae22b723007f"
     download_sources = []
 
     [[builds.licenses]]
@@ -57,11 +57,11 @@ src_version = "6.6.0"
     deps = ["libncursesw"]
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:69371dfd99f603017c9b2b8b37e120929fdd117f"
+    treehash = "sha1:30fe07269eca556fad1f83c0cb1d0c2f42b57f61"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:5b561b5110fc2c26e29199c4b48376a19bdb385c"
+    treehash = "sha1:51f61c4870a456c1a218781807c34f996fbb4f3c"
     download_sources = []
 
     [[builds.sources]]

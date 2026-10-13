@@ -1,4 +1,4 @@
-version = "1.7.2"
+version = "1.7.3"
 format_version = "1.0"
 name = "jq"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "1.7.1"
 
     [builds.artifact]
-    treehash = "sha1:ee5c1f9047b12e81a02aa90e1b0f525f7f3a38a7"
+    treehash = "sha1:4bc305b5f17aebe0769824597cbd272bfcef7d44"
     download_sources = []
 
     [[builds.licenses]]
@@ -25,11 +25,11 @@ src_version = "1.7.1"
     name = "jq"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:81f79a180d00020e654694b15a622128ac0ead5f"
+    treehash = "sha1:0c8651ee44c4014b25ce3e8b107c8e8f2278e028"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:aacc534fa8fe449f0a9d99b0f789a7c5ea364f72"
+    treehash = "sha1:a992f2b6c1df9b13a43711a49402c1defbfc92cc"
     download_sources = []
 
     [[builds.sources]]

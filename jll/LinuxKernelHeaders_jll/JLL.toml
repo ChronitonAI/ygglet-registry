@@ -1,4 +1,4 @@
-version = "6.9.0"
+version = "6.9.1"
 format_version = "1.0"
 name = "LinuxKernelHeaders"
 julia_compat = "1.6"
@@ -32,11 +32,11 @@ src_version = "6.9.5"
     name = "linux_version_h"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:64584c8cef0ad64cca873a16351d481b725c6eee"
+    treehash = "sha1:9d3fd71022632550147322419d997d201f5ae6f6"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:1c4491e0d7bcf6598fc8fa635dccdd5ae561bd4a"
+    treehash = "sha1:c04fea5ff7638ea5737fe99d508bf14918347486"
     download_sources = []
 
     [[builds.sources]]

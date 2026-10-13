@@ -1,4 +1,4 @@
-version = "5.4.2"
+version = "5.4.3"
 format_version = "1.0"
 name = "gawk"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "5.4.1"
 
     [builds.artifact]
-    treehash = "sha1:72e34fca459203062f279c75afc59824eb5fee10"
+    treehash = "sha1:53ee8f1d364faf8487d66b6d20038dca4951dce0"
     download_sources = []
 
     [[builds.licenses]]
@@ -25,11 +25,11 @@ src_version = "5.4.1"
     name = "gawk"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:1f7aeca6a673ec4293d4696091a7412a5e5415b7"
+    treehash = "sha1:3fad275f0f411c6d75c02b87700101858fdcaa31"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:ea866d0999e51a737016b2220e018d64764832eb"
+    treehash = "sha1:3672ea0bda6d6f5c8fecbba50e33047297c1dbd8"
     download_sources = []
 
     [[builds.sources]]

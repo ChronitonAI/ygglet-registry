@@ -1,4 +1,4 @@
-version = "2.21.0"
+version = "2.21.1"
 format_version = "1.0"
 name = "which"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "2.21.0"
 
     [builds.artifact]
-    treehash = "sha1:cb9c87e83b211b9faa87c6ac70433882ebf3c0b8"
+    treehash = "sha1:2d8dcdb56facb0693e2463d417903ae32dce1391"
     download_sources = []
 
     [[builds.licenses]]
@@ -25,11 +25,11 @@ src_version = "2.21.0"
     name = "which_exe"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:96cfc3fa48bf0e6912082c8e66c8095fb279df98"
+    treehash = "sha1:5bd7709f47000a869e3fb994007ba932f763562a"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:80eb07aa03e6a4016347cda315dc853bd9d16e42"
+    treehash = "sha1:df9021227e6835d7c65bb7d796f651aba25b2310"
     download_sources = []
 
     [[builds.sources]]

@@ -1,4 +1,4 @@
-version = "3.12.16"
+version = "3.12.17"
 format_version = "1.0"
 name = "Python"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "3.12.14"
 
     [builds.artifact]
-    treehash = "sha1:3a674576de0d9ead7791b57814e456b20979e6d9"
+    treehash = "sha1:10613f7b142963777445caa93add738ba1fcffed"
     download_sources = []
 
     [[builds.licenses]]
@@ -42,11 +42,11 @@ src_version = "3.12.14"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:e47434c75105d1e138fcca9b1ad6868f7570a21b"
+    treehash = "sha1:a71d9ffd9477b74f87d5998791cdac12b2dfc0d3"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:9149a6bc9116bb3d2cdf2ab2839e2ba77f81150a"
+    treehash = "sha1:95ff3dfdf7fa9a60883a4824d8e7280e9e1d4ad4"
     download_sources = []
 
     [[builds.sources]]

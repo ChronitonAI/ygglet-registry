@@ -1,4 +1,4 @@
-version = "17.0.0"
+version = "17.0.1"
 format_version = "1.0"
 name = "LLVMSoftTicksPlugin"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "17.0.7"
 
     [builds.artifact]
-    treehash = "sha1:c138996a04cae29cd0717a74f7d7e1f546ed4578"
+    treehash = "sha1:5b7a2078d63d7540541060804c13c0f396cbafef"
     download_sources = []
 
     [[builds.licenses]]
@@ -29,15 +29,15 @@ src_version = "17.0.7"
     name = "rr_softticks_h"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:680f7609699dbec6e2ce37f9a7b700b21f97f9df"
+    treehash = "sha1:07c38278760ea6b4a90f2714f795c6701757053b"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:bbefb485ce6a14587d8500388d8e6da3234cd971"
+    treehash = "sha1:9f7c07dfc093bf6d0d2a58600d8972cb3f315f80"
     download_sources = []
 
     [[builds.sources]]
-    treehash = "sha1:fdc1827c5941a37bc56416fc3ba0bdc6bd2caf8c"
+    treehash = "sha1:c33e45d71f9a38ebb09f95780f49e6056d9a06d0"
     url = "https://github.com/ChronitonAI/rift.git"
 
     [builds.callback_defs]

@@ -1,4 +1,4 @@
-version = "5.8.6"
+version = "5.8.7"
 format_version = "1.0"
 name = "XZ"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "5.8.4"
 
     [builds.artifact]
-    treehash = "sha1:6c31d98e6e5648788a58fc3f562b96f3dc15fb7c"
+    treehash = "sha1:8b1243ad66fd8dab32afe895870d5599c8634ec9"
     download_sources = []
 
     [[builds.licenses]]
@@ -50,11 +50,11 @@ src_version = "5.8.4"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:19c552433ae3c8ec1c9a53e9f2a3103d0c9e6b9a"
+    treehash = "sha1:8a4e869e57c557a9e85f9832e9b4616f0bb58583"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:5ae5c7e80562d6548fd6f4d8bb47da02f29c7529"
+    treehash = "sha1:1e07815559bcbed4cb50fd69c48e824ff52077d5"
     download_sources = []
 
     [[builds.sources]]

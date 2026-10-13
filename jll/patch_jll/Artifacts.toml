@@ -1,10 +1,10 @@
 [[patch]]
 arch = "x86_64"
-git-tree-sha1 = "e4ef018c65986c4b62903d18f69c33674cdc7794"
+git-tree-sha1 = "8e81700e2526c9eb63f891eda12e3374f1de4c9e"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[patch.download]]
-    sha256 = "420de546fedcb9df66514da27e144207fe70c8d0380a4e9023e2cfcfb2a04c02"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-9c95cb21f49d/patch-e4ef018c65986c4b62903d18f69c33674cdc7794.tar.gz"
+    sha256 = "757b0a78216e966cab8cf0dcb0eb68a7b01afeceba93d02ce7f0349fb94b0d8c"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/patch-8e81700e2526c9eb63f891eda12e3374f1de4c9e.tar.gz"

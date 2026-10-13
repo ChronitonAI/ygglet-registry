@@ -1,4 +1,4 @@
-version = "4.10.1"
+version = "4.10.2"
 format_version = "1.0"
 name = "sed"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "4.10.0"
 
     [builds.artifact]
-    treehash = "sha1:aba5b146d1e4d662ac0253ccbe774f597c621246"
+    treehash = "sha1:84d8c73330b2491d7bd75faa68409c33814c3e76"
     download_sources = []
 
     [[builds.licenses]]
@@ -26,11 +26,11 @@ src_version = "4.10.0"
     name = "sed"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:dbc8d7b915cf3fc252e6449e4b77f95f18af958a"
+    treehash = "sha1:ed4e2cf839fdb2f55cc263bb9d9ded2b34254c79"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:34c69e34bac5bd4c10be47673357d1c79e99569b"
+    treehash = "sha1:354f83dd76831ac10544494e98899ff2014ad5c0"
     download_sources = []
 
     [[builds.sources]]

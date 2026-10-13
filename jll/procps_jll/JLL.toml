@@ -1,4 +1,4 @@
-version = "4.0.6"
+version = "4.0.7"
 format_version = "1.0"
 name = "procps"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "4.0.5"
 
     [builds.artifact]
-    treehash = "sha1:e4e808bac5ff4b2b81eefb6a1030906de2e7b5a3"
+    treehash = "sha1:b43bb42e26897ae6e700c883aae124a8790e9a9f"
     download_sources = []
 
     [[builds.licenses]]
@@ -98,11 +98,11 @@ src_version = "4.0.5"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:aa94f9f2f6b6b65ba653950df9288fee0663a56f"
+    treehash = "sha1:70529dee0a92b58f51813cc05478e3f6421daaca"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:43d79a1f8147a5289917866deb87bdc7ca4d546b"
+    treehash = "sha1:ba5e663f0d4adb3f328d046803d7d326d85311e0"
     download_sources = []
 
     [[builds.sources]]

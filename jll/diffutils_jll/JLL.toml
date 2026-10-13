@@ -1,4 +1,4 @@
-version = "3.12.1"
+version = "3.12.2"
 format_version = "1.0"
 name = "diffutils"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "3.12.0"
 
     [builds.artifact]
-    treehash = "sha1:d3f6afce8d8f306d667cc6b6027aec258058bc66"
+    treehash = "sha1:463273d90118fc3de621260126b8bbc8d8b13c12"
     download_sources = []
 
     [[builds.licenses]]
@@ -37,11 +37,11 @@ src_version = "3.12.0"
     name = "sdiff"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:92aca11b386e1ce4afa78962ee9d8e717db16385"
+    treehash = "sha1:bea2911867ec8380488e353919e081d5fda1b10c"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:617509f7c49eb48814e1e10fc1f78c802d584a7d"
+    treehash = "sha1:85465d234bceee0d6b825e0f99418f01543fe70f"
     download_sources = []
 
     [[builds.sources]]

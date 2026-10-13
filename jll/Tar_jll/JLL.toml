@@ -1,4 +1,4 @@
-version = "1.35.1"
+version = "1.35.2"
 format_version = "1.0"
 name = "Tar"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "1.35.0"
 
     [builds.artifact]
-    treehash = "sha1:bd5541a36f934fe43aed7e949493d9ab3f7076e3"
+    treehash = "sha1:31bb85d62cfe61c6d7369d0bf460998498e0e57d"
     download_sources = []
 
     [[builds.licenses]]
@@ -26,11 +26,11 @@ src_version = "1.35.0"
     name = "tar"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f335a85f297b0e830ec0f043b6e75315334c13ea"
+    treehash = "sha1:aa2afdd5023aade63a0f34bfc9fc8842b52a9b58"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:213ee9299e0a95de248aad69215715a9a2a0b4db"
+    treehash = "sha1:4e38b42226ee724fbbf4405408e6c96c4c354f04"
     download_sources = []
 
     [[builds.sources]]

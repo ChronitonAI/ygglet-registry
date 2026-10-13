@@ -1,10 +1,10 @@
 [[GMP]]
 arch = "x86_64"
-git-tree-sha1 = "6f23d7587c3457fe0e8a120b9fa84c71da2a7abc"
+git-tree-sha1 = "ff2ca1138e8ded6e3c9a9c0d471133546355880f"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[GMP.download]]
-    sha256 = "9a183287e90b473e8e5afd6ce8fed4b948074921395bb59be143dbed467c09b3"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/GMP-6f23d7587c3457fe0e8a120b9fa84c71da2a7abc.tar.gz"
+    sha256 = "b2672142296860dfe25f2f99a8984ee3e6c662cf0c9b1a5639f25dc705c9a759"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/GMP-ff2ca1138e8ded6e3c9a9c0d471133546355880f.tar.gz"

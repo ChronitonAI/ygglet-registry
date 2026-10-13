@@ -1,4 +1,4 @@
-version = "679.0.1"
+version = "679.0.2"
 format_version = "1.0"
 name = "less"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "679.0.0"
 
     [builds.artifact]
-    treehash = "sha1:213b017394f62e07d21b863e7dacac9e95e89540"
+    treehash = "sha1:a6addc8103689a6717289a4e61aa751428dbecf3"
     download_sources = []
 
     [[builds.licenses]]
@@ -36,11 +36,11 @@ src_version = "679.0.0"
     name = "less"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4304d9195bc3a64c581e2001c9865e08d0af10f8"
+    treehash = "sha1:7f0f7ab932847b8487fbb944b3d9df149865038e"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:14af36d16ea07221b66a42e587d1eccb5490135a"
+    treehash = "sha1:d56caf7d277bf3547db51ee7bb6b9e8506cc577e"
     download_sources = []
 
     [[builds.sources]]

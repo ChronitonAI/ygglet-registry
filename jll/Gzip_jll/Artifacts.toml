@@ -1,10 +1,10 @@
 [[Gzip]]
 arch = "x86_64"
-git-tree-sha1 = "2ba517de13dc3857e62b3399f7398ab6c189851c"
+git-tree-sha1 = "b9cb20350944147d5531d070fe64f5fbd9681963"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[Gzip.download]]
-    sha256 = "56a926c68dae25771131ae592d1c4de8dd97c79c43eea32a54950e8ec213ef71"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-1e7a5ab68809/Gzip-2ba517de13dc3857e62b3399f7398ab6c189851c.tar.gz"
+    sha256 = "baa8ff92efe4bb8f4fb706af2de6eda9c556660964c75b48c707686f6854c269"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/Gzip-b9cb20350944147d5531d070fe64f5fbd9681963.tar.gz"
