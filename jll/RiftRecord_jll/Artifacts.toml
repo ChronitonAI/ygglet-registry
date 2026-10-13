@@ -1,0 +1,10 @@
+[[RiftRecord]]
+arch = "x86_64"
+git-tree-sha1 = "7e8594b97ebfd724023d44f47ecd1f87013eadeb"
+libc = "glibc"
+os = "linux"
+rr_softticks = "1"
+
+    [[RiftRecord.download]]
+    sha256 = "746801633d11bc44ad87f1796006de1751727f248d66c7128dd6ddf1d701029e"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-3d3b501466f9/RiftRecord-7e8594b97ebfd724023d44f47ecd1f87013eadeb.tar.gz"

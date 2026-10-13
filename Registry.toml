@@ -55,6 +55,10 @@ path = "G/Glibc_jll"
 name = "OpenSSL_jll"
 path = "O/OpenSSL_jll"
 
+[packages.45ff76dc-947b-5051-b6ad-f890d55ba710]
+name = "RiftRecord_jll"
+path = "R/RiftRecord_jll"
+
 [packages.47013893-54eb-5c9c-83b4-9a24496ece36]
 name = "grep_jll"
 path = "G/grep_jll"

@@ -1,0 +1,39 @@
+version = "0.1.0"
+format_version = "1.0"
+name = "RiftRecord"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "RiftRecord"
+platform = "x86_64-linux-gnu-rr_softticks+1"
+deps = []
+lazy = "false"
+src_version = "0.1.0"
+
+    [builds.artifact]
+    treehash = "sha1:7e8594b97ebfd724023d44f47ecd1f87013eadeb"
+    download_sources = []
+
+    [[builds.licenses]]
+    filename = "NOTICE"
+    license_text = """rift (record-only build), https://github.com/ChronitonAI/rift-action (bundles the Julia runtime, MIT licensed)\n"""
+
+    [[builds.products]]
+    path = "bin/rift"
+    type = "executable"
+    name = "rift"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:1a4038feed086c07cf84eab4a95a7d6473c79111"
+    download_sources = []
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:9a833a238b7fd73629e0756744a5b7d94e5d1664"
+    download_sources = []
+
+    [[builds.sources]]
+    treehash = "sha1:7591ed91f730c8a2a1dbbf6d18967eee7143d7b2"
+    url = "https://api.github.com/repos/ChronitonAI/rift-action/releases/assets/636130491"
+
+    [builds.callback_defs]
