@@ -1,10 +1,10 @@
 [[util_linux]]
 arch = "x86_64"
-git-tree-sha1 = "86e1a0a1a47fe26d6767b22649e51f093cb6fce9"
+git-tree-sha1 = "12fd5bc0d93d77d5871037d6bd9e2881c7600e03"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[util_linux.download]]
-    sha256 = "14f58bc2af61c37a327079edb23baf231fb017aba4418f9df661e234813271f1"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/util_linux-86e1a0a1a47fe26d6767b22649e51f093cb6fce9.tar.gz"
+    sha256 = "67b2ca440b16037be8c1e526dcb811767a41e5aabf085831b68e5dd9c14e03b8"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/util_linux-12fd5bc0d93d77d5871037d6bd9e2881c7600e03.tar.gz"

@@ -1,4 +1,4 @@
-version = "4.10.1"
+version = "4.10.2"
 format_version = "1.0"
 name = "findutils"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "4.10.0"
 
     [builds.artifact]
-    treehash = "sha1:311766114d1d978b25f02e36aabe5b72197714af"
+    treehash = "sha1:4fcf94e96b535db470c8b8498fb152b523793882"
     download_sources = []
 
     [[builds.licenses]]
@@ -30,11 +30,11 @@ src_version = "4.10.0"
     name = "xargs"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:656c3b6691be4da9d2ff55ef0e8d774652aaca76"
+    treehash = "sha1:87900ce0a89928de85b8337a1222477f0c9b611a"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c8cdbacae80558808d14506fa1db199a796685fe"
+    treehash = "sha1:356a643a517a2c92c061be9ad5ffd50522512d47"
     download_sources = []
 
     [[builds.sources]]

@@ -1,10 +1,10 @@
 [[gawk]]
 arch = "x86_64"
-git-tree-sha1 = "53ee8f1d364faf8487d66b6d20038dca4951dce0"
+git-tree-sha1 = "5bf03ba80516c90e908a48ec7bc482a616f8d8f4"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[gawk.download]]
-    sha256 = "26d9de2932ee322e73131cdd1c6dc1ecfa1cea2b15a36255af0cb100ba7cef4a"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/gawk-53ee8f1d364faf8487d66b6d20038dca4951dce0.tar.gz"
+    sha256 = "23922766e19ce9e0d2d5dc58b4f6add184275d62d15dfbbc5d2cf02c7741e237"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/gawk-5bf03ba80516c90e908a48ec7bc482a616f8d8f4.tar.gz"

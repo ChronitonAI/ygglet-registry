@@ -1,10 +1,10 @@
 [[pkgconf]]
 arch = "x86_64"
-git-tree-sha1 = "780bb8bd893113f2bf546bfd52496457281172aa"
+git-tree-sha1 = "a4a1a60612d3bf7851c821300e288bd226a72adc"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[pkgconf.download]]
-    sha256 = "241b94d3046531c0ff689a4bfc5b52669ed2e7ad37b6173f0dc7c67aad4cb81e"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/pkgconf-780bb8bd893113f2bf546bfd52496457281172aa.tar.gz"
+    sha256 = "e5372a2bf95f9c83e1d489983fe03ead07cdd6b6c11b0d78da168568034541b2"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/pkgconf-a4a1a60612d3bf7851c821300e288bd226a72adc.tar.gz"

@@ -1,4 +1,4 @@
-version = "1.13.4"
+version = "1.13.5"
 format_version = "1.0"
 name = "Ninja"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "1.13.1"
 
     [builds.artifact]
-    treehash = "sha1:a559a56120b7e51d2cc10dadf890b5e0380f687c"
+    treehash = "sha1:d9b76812485ffdfc9a3dda9fd22b47c64865a64a"
     download_sources = []
 
     [[builds.licenses]]
@@ -26,11 +26,11 @@ src_version = "1.13.1"
     name = "ninja"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9b02bdf16d935b7d6d198925586522efc4cde31d"
+    treehash = "sha1:05743b64cc4a59e0b5f5765612e3b8804a634a64"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7c52ea99e70f1d516b9001fdd04b6d2da04acd17"
+    treehash = "sha1:946b66963bcb0824f42703a10d46ec18ab8c2980"
     download_sources = []
 
     [[builds.sources]]

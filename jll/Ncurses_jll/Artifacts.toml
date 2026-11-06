@@ -1,10 +1,10 @@
 [[Ncurses]]
 arch = "x86_64"
-git-tree-sha1 = "c7318444fc753c3840c82ff98888ae22b723007f"
+git-tree-sha1 = "d32851b0d4cb671878f938303b2f8b075f11d86d"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[Ncurses.download]]
-    sha256 = "355db9c13a1dec10c4e4a5c3b9767e54507c9ae6abf229e2ab67ba75beeb23c2"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/Ncurses-c7318444fc753c3840c82ff98888ae22b723007f.tar.gz"
+    sha256 = "e979e63922e7be829562d8c9e199197f0602098fd0bddff5cf53484c733744dd"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/Ncurses-d32851b0d4cb671878f938303b2f8b075f11d86d.tar.gz"

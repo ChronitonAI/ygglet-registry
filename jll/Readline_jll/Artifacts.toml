@@ -1,10 +1,10 @@
 [[Readline]]
 arch = "x86_64"
-git-tree-sha1 = "779f623b94f18e04e3aa575171fe65ceb6d4bd6f"
+git-tree-sha1 = "586d3765f523f99b9bac2286ac789caf247d6df8"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[Readline.download]]
-    sha256 = "abcce9577bf54465750632fb80f3b47eb570b767572e3d98cc1a8c475e4f16a1"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/Readline-779f623b94f18e04e3aa575171fe65ceb6d4bd6f.tar.gz"
+    sha256 = "f553f9e9af1883be347a6dd03a7681bff0a0685cf2d2532285db44a56853a357"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/Readline-586d3765f523f99b9bac2286ac789caf247d6df8.tar.gz"

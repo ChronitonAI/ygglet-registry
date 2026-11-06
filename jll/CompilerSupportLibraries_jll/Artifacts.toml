@@ -1,10 +1,10 @@
 [[CompilerSupportLibraries]]
 arch = "x86_64"
-git-tree-sha1 = "12c6a0f9013c04aa1dca65656a46824c6999fe1b"
+git-tree-sha1 = "0104fd3d1bfd2905886a75a401cdfad514dae8ec"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[CompilerSupportLibraries.download]]
-    sha256 = "18e0f389eae4b2026b22f42e3c4702397609c873f975dec0c750df7167a98b96"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-2a3444df8a20/CompilerSupportLibraries-12c6a0f9013c04aa1dca65656a46824c6999fe1b.tar.gz"
+    sha256 = "9af38d7a0be4c617f3a679c9d34a528fcaa7f13bf8e04fbe0dcc20a93967677d"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/CompilerSupportLibraries-0104fd3d1bfd2905886a75a401cdfad514dae8ec.tar.gz"

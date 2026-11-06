@@ -1,10 +1,10 @@
 [[Expat]]
 arch = "x86_64"
-git-tree-sha1 = "f3a2c6768a45adac3c213c331f5f25db23f5ff5a"
+git-tree-sha1 = "8e918b45807debfa5f5a62feae7ed713b2c4a06b"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[Expat.download]]
-    sha256 = "52f1da7dba8fd5ee85621556060a64932477df594bd8876ae27e79bc9056ca83"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/Expat-f3a2c6768a45adac3c213c331f5f25db23f5ff5a.tar.gz"
+    sha256 = "54085a30ba9559a756302348e1f7c3c3909f3ff792c32a449af2840860e1bee1"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/Expat-8e918b45807debfa5f5a62feae7ed713b2c4a06b.tar.gz"

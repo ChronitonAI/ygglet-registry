@@ -1,4 +1,4 @@
-version = "2.8.2"
+version = "2.8.3"
 format_version = "1.0"
 name = "patch"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "2.8.0"
 
     [builds.artifact]
-    treehash = "sha1:8e81700e2526c9eb63f891eda12e3374f1de4c9e"
+    treehash = "sha1:21ac6eece0bb5e87b1259b98eb8aeabbbafec412"
     download_sources = []
 
     [[builds.licenses]]
@@ -25,11 +25,11 @@ src_version = "2.8.0"
     name = "patch"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:1dde41be3c617d4391001eaa83c08b54910c1d2a"
+    treehash = "sha1:77cdd23902e7c1e261b4b6d42190ca6960bee478"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:e6fffa710b73765784026e2732a35fc476ccc791"
+    treehash = "sha1:88d9b8ec1d25ed8476879737ecac475be458f52e"
     download_sources = []
 
     [[builds.sources]]

@@ -1,10 +1,10 @@
 [[Python]]
 arch = "x86_64"
-git-tree-sha1 = "10613f7b142963777445caa93add738ba1fcffed"
+git-tree-sha1 = "d353e2608172ce0c314719045f0526e94f22718a"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[Python.download]]
-    sha256 = "9d4527aa64f1de4b0a5b76dbddf953e16e5f798422285a8bfc9c16dba8f3f94b"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/Python-10613f7b142963777445caa93add738ba1fcffed.tar.gz"
+    sha256 = "b2bed167655b24708b8b02b415c5c92244afdc0ed599a3f65d759f5a4a370fe2"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/Python-d353e2608172ce0c314719045f0526e94f22718a.tar.gz"

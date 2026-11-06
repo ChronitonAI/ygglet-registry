@@ -1,10 +1,10 @@
 [[procps]]
 arch = "x86_64"
-git-tree-sha1 = "b43bb42e26897ae6e700c883aae124a8790e9a9f"
+git-tree-sha1 = "0f9dd31d3629a2252ca91571fd26d40389155a99"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[procps.download]]
-    sha256 = "14f82482f758acc291fda63acf7233822c7c7413c7a4c420d615e9fbcc6a146e"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/procps-b43bb42e26897ae6e700c883aae124a8790e9a9f.tar.gz"
+    sha256 = "227689815ff1312ed22576b3d6b2cd5b73a23f65dbcc63a74c1ef74dcc9a1977"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/procps-0f9dd31d3629a2252ca91571fd26d40389155a99.tar.gz"

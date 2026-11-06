@@ -1,10 +1,10 @@
 [[GDB]]
 arch = "x86_64"
-git-tree-sha1 = "07dd6892310b8fcf2b40c31bfd3f1a7a3ba270ee"
+git-tree-sha1 = "914091e850b788617e267837dda7049b88d6511e"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[GDB.download]]
-    sha256 = "dc95f69f98f831219b41891326e3cd87b72a420ad246bbe384988df559f8bea3"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/GDB-07dd6892310b8fcf2b40c31bfd3f1a7a3ba270ee.tar.gz"
+    sha256 = "f73b67507bbeff72c4dc15929582f9d78ad603d65069218357f3ddd65045d9f2"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/GDB-914091e850b788617e267837dda7049b88d6511e.tar.gz"

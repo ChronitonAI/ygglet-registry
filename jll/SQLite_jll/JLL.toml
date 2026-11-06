@@ -1,4 +1,4 @@
-version = "3.53.9"
+version = "3.53.10"
 format_version = "1.0"
 name = "SQLite"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "3.53.4"
 
     [builds.artifact]
-    treehash = "sha1:868709b6296c9b611b10785747b3892183df89bf"
+    treehash = "sha1:f807d5317924b0beac329a61c36e9837a14a19fc"
     download_sources = []
 
     [[builds.licenses]]
@@ -33,11 +33,11 @@ src_version = "3.53.4"
     deps = ["Zlib_jll.libz"]
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2fa4ca237cca085234df6d062a902c5ffa811408"
+    treehash = "sha1:32785c91343b34287e5133c772e082b1b836adac"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:19f722563fa56a3659d3c8cb386622155ceb7352"
+    treehash = "sha1:a884cce441047cd989bde5521ee8fc6962b8c3ac"
     download_sources = []
 
     [[builds.sources]]

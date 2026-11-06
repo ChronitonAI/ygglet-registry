@@ -1,4 +1,4 @@
-version = "8.3.6"
+version = "8.3.7"
 format_version = "1.0"
 name = "Readline"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "8.3.3"
 
     [builds.artifact]
-    treehash = "sha1:779f623b94f18e04e3aa575171fe65ceb6d4bd6f"
+    treehash = "sha1:586d3765f523f99b9bac2286ac789caf247d6df8"
     download_sources = []
 
     [[builds.licenses]]
@@ -38,11 +38,11 @@ src_version = "8.3.3"
     deps = ["Ncurses_jll.libncursesw"]
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9ab31673bfe8e056f3b149db353b728983e42fe5"
+    treehash = "sha1:fab9883770793baf6448a590e9a28c7a9358b78c"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:823c3801df92106fe271570794e6ce1378fabf7d"
+    treehash = "sha1:8e27a038703f71bbc749204f6c53706c4c002b74"
     download_sources = []
 
     [[builds.sources]]

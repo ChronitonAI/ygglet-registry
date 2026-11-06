@@ -1,4 +1,4 @@
-version = "4.4.3"
+version = "4.4.4"
 format_version = "1.0"
 name = "GNUMake"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "4.4.1"
 
     [builds.artifact]
-    treehash = "sha1:8cf6e7d6fbc5806fcbddb2c64faf73386cf5d297"
+    treehash = "sha1:7666db6d97e3afef1ae806f1e8bafe98fbd89d3c"
     download_sources = []
 
     [[builds.licenses]]
@@ -25,11 +25,11 @@ src_version = "4.4.1"
     name = "make"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:abacdffe47ec1f8393a192f850f1f66714b74b68"
+    treehash = "sha1:dc6b545ff154bdaa62c87e2c660eb954ca7c4c16"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:86c45e67d3a2c15c847785ce90ece49a7eef3da9"
+    treehash = "sha1:18bd69ff6ba82ace9a23c0cfaa71befa233c02a7"
     download_sources = []
 
     [[builds.sources]]

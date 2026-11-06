@@ -1,4 +1,4 @@
-version = "9.11.2"
+version = "9.11.3"
 format_version = "1.0"
 name = "coreutils"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "9.11.0"
 
     [builds.artifact]
-    treehash = "sha1:1e1ba26d81b148b8509589694cd761717fbae93d"
+    treehash = "sha1:ef32cfe82ffb2a248472962fed2bb83b342ce85e"
     download_sources = []
 
     [[builds.licenses]]
@@ -439,11 +439,11 @@ src_version = "9.11.0"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4f8b6fba5c14c7c46d5a573c4f9c6d7f2c781642"
+    treehash = "sha1:8ccc05624333b6bad919f57fd64f0d9275e7aee2"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:398fd69b477cae85c086604c239d2667c48af9b3"
+    treehash = "sha1:a98025096533941d33eb320bbc5377b642ddcbb1"
     download_sources = []
 
     [[builds.sources]]

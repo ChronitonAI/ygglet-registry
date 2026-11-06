@@ -1,4 +1,4 @@
-version = "2.41.2"
+version = "2.41.3"
 format_version = "1.0"
 name = "Binutils"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:4c661b60a8fcb26b6764432bf9c16e2180fdaf79"
+    treehash = "sha1:70e051d8873d12af0b4d6ec71f51b96d03f2bf38"
     download_sources = []
 
     [[builds.licenses]]
@@ -51,11 +51,11 @@ src_version = "2.41.0"
     name = "readelf"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:cb36fe963bf5a946e3034fecad6824164ae0741f"
+    treehash = "sha1:ee48ba18092fc37eabe0daca89e4bf37079861e7"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:fe2030dd16f58f71b9ebab6818f190536519bcf8"
+    treehash = "sha1:1cd93ca910b9fb925b9d4cc8352ed5411cbaef22"
     download_sources = []
 
     [[builds.sources]]

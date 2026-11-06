@@ -1,10 +1,10 @@
 [[SQLite]]
 arch = "x86_64"
-git-tree-sha1 = "868709b6296c9b611b10785747b3892183df89bf"
+git-tree-sha1 = "f807d5317924b0beac329a61c36e9837a14a19fc"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[SQLite.download]]
-    sha256 = "07a7de1de63283ea143c42c78ca1246bd2aad4c852d9d4efec2d3123355fa9ed"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/SQLite-868709b6296c9b611b10785747b3892183df89bf.tar.gz"
+    sha256 = "cff687679a457fbb2fa7e767884cbb0f65427eab4792636290a156b1858500bb"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/SQLite-f807d5317924b0beac329a61c36e9837a14a19fc.tar.gz"

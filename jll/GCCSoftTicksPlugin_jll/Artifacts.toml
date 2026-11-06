@@ -1,9 +1,9 @@
 [[GCCSoftTicksPlugin]]
 arch = "x86_64"
-git-tree-sha1 = "77a04255dc4802303a8f9203f084d2a6ee770d67"
+git-tree-sha1 = "6454f8276c7d01ad99940c5931264e8ada8065a1"
 libc = "glibc"
 os = "linux"
 
     [[GCCSoftTicksPlugin.download]]
-    sha256 = "6f397439c237e13c9ea03e12bce0ae68a877d3496f594bfab35690f77389260d"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-128729025760/GCCSoftTicksPlugin-77a04255dc4802303a8f9203f084d2a6ee770d67.tar.gz"
+    sha256 = "84fff491e0a40c949452c9f0e8ae4cd764f0e149cb97198069ed488c503b9bd2"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/GCCSoftTicksPlugin-6454f8276c7d01ad99940c5931264e8ada8065a1.tar.gz"

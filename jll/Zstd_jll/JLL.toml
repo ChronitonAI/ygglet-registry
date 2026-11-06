@@ -1,4 +1,4 @@
-version = "1.5.9"
+version = "1.5.10"
 format_version = "1.0"
 name = "Zstd"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "1.5.7"
 
     [builds.artifact]
-    treehash = "sha1:0b331cfcccc19640d0cffd01456cbb8c3b393bb7"
+    treehash = "sha1:aba7fb2f3e56e919d13736ee82c12c4b1074b76e"
     download_sources = []
 
     [[builds.licenses]]
@@ -39,11 +39,11 @@ src_version = "1.5.7"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:fb1a86b866fbb9d24fd554caf2b58cace025f44a"
+    treehash = "sha1:5bc912ba3678b42b847391ac60322f589399c439"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a922863a10d7ee94968fc7382c49e42293a3a6ea"
+    treehash = "sha1:de50be8b599f87a33a8378f8eecfc6d9bc70f3af"
     download_sources = []
 
     [[builds.sources]]

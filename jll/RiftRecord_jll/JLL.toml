@@ -1,4 +1,4 @@
-version = "0.1.0"
+version = "0.1.1"
 format_version = "1.0"
 name = "RiftRecord"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "0.1.0"
 
     [builds.artifact]
-    treehash = "sha1:7e8594b97ebfd724023d44f47ecd1f87013eadeb"
+    treehash = "sha1:30ec9f7a12bc5af2eee1823a3969e95515f9c1b4"
     download_sources = []
 
     [[builds.licenses]]
@@ -25,15 +25,15 @@ src_version = "0.1.0"
     name = "rift"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:1a4038feed086c07cf84eab4a95a7d6473c79111"
+    treehash = "sha1:261e88c7d45c44e391425830572bc97afb900602"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:9a833a238b7fd73629e0756744a5b7d94e5d1664"
+    treehash = "sha1:a2988bd878e1100c7dcf1f5e464a36bbff00d757"
     download_sources = []
 
     [[builds.sources]]
-    treehash = "sha1:7591ed91f730c8a2a1dbbf6d18967eee7143d7b2"
-    url = "https://api.github.com/repos/ChronitonAI/rift-action/releases/assets/636130491"
+    treehash = "sha1:45f1be0efa00093079b8609c43bbd4012d70d3ba"
+    url = "https://api.github.com/repos/ChronitonAI/rift-action/releases/assets/716377400"
 
     [builds.callback_defs]

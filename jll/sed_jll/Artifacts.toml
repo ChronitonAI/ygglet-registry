@@ -1,10 +1,10 @@
 [[sed]]
 arch = "x86_64"
-git-tree-sha1 = "84d8c73330b2491d7bd75faa68409c33814c3e76"
+git-tree-sha1 = "08ee8809011a6c9720f9089e82b6f85e6dc96352"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[sed.download]]
-    sha256 = "ef8be022f438e88f8373c00ebd1dd07d1c08a49d74d3029664f62e2bf6500c91"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/sed-84d8c73330b2491d7bd75faa68409c33814c3e76.tar.gz"
+    sha256 = "cfc82dc4e336fd47ea977d36bb924bb574a1bd97a7fbd94d439123b27bbe210c"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/sed-08ee8809011a6c9720f9089e82b6f85e6dc96352.tar.gz"

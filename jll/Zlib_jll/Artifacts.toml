@@ -1,10 +1,10 @@
 [[Zlib]]
 arch = "x86_64"
-git-tree-sha1 = "92a30758454cf89c8a9d41d3753278aa58b19b1f"
+git-tree-sha1 = "4b6be612885e1107197a58c3da7884b309770745"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[Zlib.download]]
-    sha256 = "10e259578b3938750fe06149347ded1d3ede22bbcf2d7267b8241a27d173a166"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/Zlib-92a30758454cf89c8a9d41d3753278aa58b19b1f.tar.gz"
+    sha256 = "07cfea6cd5af3dee1fe9da6e340e0d4275a08657c54a843ad81640b4ac971e9d"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/Zlib-4b6be612885e1107197a58c3da7884b309770745.tar.gz"

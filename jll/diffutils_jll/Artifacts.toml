@@ -1,10 +1,10 @@
 [[diffutils]]
 arch = "x86_64"
-git-tree-sha1 = "463273d90118fc3de621260126b8bbc8d8b13c12"
+git-tree-sha1 = "4536b55b3ab9131484213f8a02f52c8508d92034"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[diffutils.download]]
-    sha256 = "7be1b4833e836bd38839fa47a13746256ce62ab59bc406d666018f6aafa162b4"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/diffutils-463273d90118fc3de621260126b8bbc8d8b13c12.tar.gz"
+    sha256 = "89e561d66d634cfa3467ae2cd4fbfb961f32f87105d44f690bda930f57e13110"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/diffutils-4536b55b3ab9131484213f8a02f52c8508d92034.tar.gz"

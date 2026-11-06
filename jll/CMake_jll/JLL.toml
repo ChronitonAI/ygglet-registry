@@ -1,4 +1,4 @@
-version = "4.4.3"
+version = "4.4.4"
 format_version = "1.0"
 name = "CMake"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "4.4.1"
 
     [builds.artifact]
-    treehash = "sha1:4c5f6a8fcfe26bf38da5dfdb23d9cd3c59bd7fe3"
+    treehash = "sha1:198607dd763ceb605a0eaa0253f3cf7599db5ffa"
     download_sources = []
 
     [[builds.licenses]]
@@ -25,11 +25,11 @@ src_version = "4.4.1"
     name = "cmake"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:c0207e219f79ab04af5420e2d046ee62b9bf8f30"
+    treehash = "sha1:691bfb20325535b2171e1a0ad390a427fc7baeae"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:85f6891578b13cd5cd3ae301f7b73bd9164e3586"
+    treehash = "sha1:d58fc0e0c37487bbd02a08167090afb8c11e7b8a"
     download_sources = []
 
     [[builds.sources]]

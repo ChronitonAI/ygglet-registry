@@ -1,4 +1,4 @@
-version = "3.5.12"
+version = "3.5.13"
 format_version = "1.0"
 name = "OpenSSL"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "3.5.9"
 
     [builds.artifact]
-    treehash = "sha1:a91ce588ec0ca95848b5246cee920465351765f8"
+    treehash = "sha1:df61f34f865ab60df5cf684cb2a6ab0d476ca3e1"
     download_sources = []
 
     [[builds.licenses]]
@@ -44,11 +44,11 @@ src_version = "3.5.9"
     deps = ["libcrypto"]
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:55e61254105404b415be63a481fe3dab954d58ba"
+    treehash = "sha1:f05e861acbfc673f6932ed79b1c39c5ff564551c"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f674e74fe8e539e0fa0df2cfee594086080b5750"
+    treehash = "sha1:d2b19e28c530c83385fa4eff0daeb8aaf97e5665"
     download_sources = []
 
     [[builds.sources]]

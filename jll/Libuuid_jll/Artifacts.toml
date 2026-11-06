@@ -1,10 +1,10 @@
 [[Libuuid]]
 arch = "x86_64"
-git-tree-sha1 = "afbfd4c27bb47efe2b5bd0e17b449db5e03a33ab"
+git-tree-sha1 = "11644d93820c924b159701a8414edc1ed03b7f80"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[Libuuid.download]]
-    sha256 = "10f37bf6a284099c638a1e58b4cf90551a00945f7f4f5dd1f876a12f576a5dc1"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/Libuuid-afbfd4c27bb47efe2b5bd0e17b449db5e03a33ab.tar.gz"
+    sha256 = "51f7510892b8737f363b355928372a014d4381dcde239595914232f2a1cd40b0"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/Libuuid-11644d93820c924b159701a8414edc1ed03b7f80.tar.gz"

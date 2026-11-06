@@ -1,4 +1,4 @@
-version = "14.2.9"
+version = "14.2.10"
 format_version = "1.0"
 name = "GCC"
 julia_compat = "1.6"
@@ -11,7 +11,7 @@ lazy = "false"
 src_version = "14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:81daa60741f8f2f26758ba95f23d83be82e054e5"
+    treehash = "sha1:4dd5dca913d8cf02b6b455b62764f7cc0a2b48f8"
     download_sources = []
 
     [[builds.licenses]]
@@ -47,11 +47,11 @@ src_version = "14.2.0"
     name = "softticks_gcc"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:dc4484b596fe4097432db86882269ffaed79bdff"
+    treehash = "sha1:1050fe5b600ebf333a3b08175d7c97d47bbd9c92"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:dd0ffac01acf5c284f38a12c37aec490699feb37"
+    treehash = "sha1:70c69fc08cf9156068c663f399c08e9822c1afad"
     download_sources = []
 
     [[builds.sources]]
@@ -70,7 +70,7 @@ src_version = "14.2.0"
     treehash = "sha1:b22c1e4e2413d9a0ec828a92c0b6efd29ecdafa5"
     url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:977ecf2b307a2d191e345fde9e45b1944073d9f2"
+    treehash = "sha1:3facb88e7ebc2b5ba14be7496dcec93b692c2f58"
     url = "https://github.com/ChronitonAI/rift.git"
 
     [builds.callback_defs]

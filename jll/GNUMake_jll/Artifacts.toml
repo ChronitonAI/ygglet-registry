@@ -1,10 +1,10 @@
 [[GNUMake]]
 arch = "x86_64"
-git-tree-sha1 = "8cf6e7d6fbc5806fcbddb2c64faf73386cf5d297"
+git-tree-sha1 = "7666db6d97e3afef1ae806f1e8bafe98fbd89d3c"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[GNUMake.download]]
-    sha256 = "55c84146bf2e182977199fa0461c3e3a9f1c6d76018890c61a72ff18af228a14"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/GNUMake-8cf6e7d6fbc5806fcbddb2c64faf73386cf5d297.tar.gz"
+    sha256 = "f68274142890efd1a0f0a7532238d02ffbef44984ad45fbec27223bfa858d831"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/GNUMake-7666db6d97e3afef1ae806f1e8bafe98fbd89d3c.tar.gz"

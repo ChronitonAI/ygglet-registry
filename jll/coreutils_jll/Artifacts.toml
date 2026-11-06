@@ -1,10 +1,10 @@
 [[coreutils]]
 arch = "x86_64"
-git-tree-sha1 = "1e1ba26d81b148b8509589694cd761717fbae93d"
+git-tree-sha1 = "ef32cfe82ffb2a248472962fed2bb83b342ce85e"
 libc = "glibc"
 os = "linux"
 rr_softticks = "1"
 
     [[coreutils.download]]
-    sha256 = "e952fb4e55ea1481602cb6f1fa3b9222f33505d4a11c33fe527fe036b7c81a3a"
-    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-791de68ec318/coreutils-1e1ba26d81b148b8509589694cd761717fbae93d.tar.gz"
+    sha256 = "4683acfd3c8c9b48bd804b84d8152bbe8c20d4ad276b10b5b75c2555ebb73357"
+    url = "https://github.com/ChronitonAI/ygglet-registry/releases/download/jlls-c9ae0b95f9f0/coreutils-ef32cfe82ffb2a248472962fed2bb83b342ce85e.tar.gz"

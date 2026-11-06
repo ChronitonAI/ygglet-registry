@@ -1,4 +1,4 @@
-version = "2.42.2"
+version = "2.42.3"
 format_version = "1.0"
 name = "Libuuid"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "2.42.0"
 
     [builds.artifact]
-    treehash = "sha1:afbfd4c27bb47efe2b5bd0e17b449db5e03a33ab"
+    treehash = "sha1:11644d93820c924b159701a8414edc1ed03b7f80"
     download_sources = []
 
     [[builds.licenses]]
@@ -31,11 +31,11 @@ src_version = "2.42.0"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:018d5d0b44997dc29406feb5e83967f79b82d909"
+    treehash = "sha1:a127e37fae28d35985ce7f0a602b05b7b207fa42"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:1a7c82cef9baf811da493b8bc51cc592a041836a"
+    treehash = "sha1:ae58df3a69fccd90937cdcb1bccde0088afa4e34"
     download_sources = []
 
     [[builds.sources]]

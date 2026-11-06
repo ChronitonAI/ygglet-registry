@@ -1,4 +1,4 @@
-version = "14.2.5"
+version = "14.2.6"
 format_version = "1.0"
 name = "GCCSoftTicksPlugin"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:77a04255dc4802303a8f9203f084d2a6ee770d67"
+    treehash = "sha1:6454f8276c7d01ad99940c5931264e8ada8065a1"
     download_sources = []
 
     [[builds.licenses]]
@@ -29,15 +29,15 @@ src_version = "14.2.0"
     name = "rr_softticks_h"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:78dac56593076b90537c8eb273cc17374c490b6b"
+    treehash = "sha1:7a81290ee2ea57378e1a0ddaee38054dd045aa28"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:667dcceb446c06fbd820aa632f206697bdf8584b"
+    treehash = "sha1:c11e86c84447395907cb6eb745c3de6a9d6e4e0c"
     download_sources = []
 
     [[builds.sources]]
-    treehash = "sha1:977ecf2b307a2d191e345fde9e45b1944073d9f2"
+    treehash = "sha1:3facb88e7ebc2b5ba14be7496dcec93b692c2f58"
     url = "https://github.com/ChronitonAI/rift.git"
 
     [builds.callback_defs]

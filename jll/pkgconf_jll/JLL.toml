@@ -1,4 +1,4 @@
-version = "2.3.1"
+version = "2.3.2"
 format_version = "1.0"
 name = "pkgconf"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "2.3.0"
 
     [builds.artifact]
-    treehash = "sha1:780bb8bd893113f2bf546bfd52496457281172aa"
+    treehash = "sha1:a4a1a60612d3bf7851c821300e288bd226a72adc"
     download_sources = []
 
     [[builds.licenses]]
@@ -38,11 +38,11 @@ src_version = "2.3.0"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:6040e6efefe6e4d379ff7f4213e9981094f4a2ad"
+    treehash = "sha1:1f7380bec2c71d16da79e106c4ddee0c54e8e81b"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:8d121a31122beb1338ee488bad98ea8eef96564b"
+    treehash = "sha1:dc2ad2d541c5af7cb67bda62ce47add5222955ac"
     download_sources = []
 
     [[builds.sources]]

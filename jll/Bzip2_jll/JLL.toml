@@ -1,4 +1,4 @@
-version = "1.0.12"
+version = "1.0.13"
 format_version = "1.0"
 name = "Bzip2"
 julia_compat = "1.6"
@@ -12,7 +12,7 @@ lazy = "false"
 src_version = "1.0.9"
 
     [builds.artifact]
-    treehash = "sha1:440be1052fe36495473060c98e3d83b621ce1575"
+    treehash = "sha1:1217adc697c7d9d60543893cd5784d8659603e93"
     download_sources = []
 
     [[builds.licenses]]
@@ -31,11 +31,11 @@ src_version = "1.0.9"
     deps = []
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:91151d899cbfd804b80925fcb618ab9967c30fde"
+    treehash = "sha1:ff69509530de48b4377c76958dad5cfbcbae2a6a"
     download_sources = []
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:4e84770b35082c03c895719985377a74baf9698d"
+    treehash = "sha1:9aff2e8f3750ffc543981b08f6d1163f2130f78d"
     download_sources = []
 
     [[builds.sources]]
